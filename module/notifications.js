@@ -4,7 +4,8 @@ const no = "No";
 const yesTemp = "Yes (temporary)";
 const yesPerm = "Yes (permanent until dismissed)";
 const showWhisperNotificationsKey = "showWhisperNotifications" ;
-const overrideAudioKey = "overrideAudioKey" ;
+const overrideAudioKey = "overrideAudioKey";
+const enhanceMessageKey  ="enhanceMessage";
 const notifChoices = [no, yesTemp, yesPerm];
 
 const sounds = {
@@ -33,6 +34,14 @@ Hooks.once("init", async function () {
     default: Object.keys(sounds).indexOf("None"),
     type: Number,
   });
+  game.settings.register(moduleName, enhanceMessageKey, {
+    name: "Make whisper messages more vibrant?",
+    hint: "If ticked, whisper messages will stand out more and be coloured to match the sender.",
+    scope: "client",
+    config: true,
+    default: false,
+    type: Boolean,
+  });
 });
 
 
@@ -54,11 +63,15 @@ Hooks.on("createChatMessage", async (data, options, userId) => {
 });
 
 Hooks.on("renderChatMessage", async (data, elements, options) => {
+  const enhance = game.settings.get(moduleName, enhanceMessageKey);
+  const isWhisper  = (data?.data?.whisper ?? []).length > 0;
+  if (!(enhance && isWhisper)) {
+    return;
+  }
   const color = game.users.get(data?.data?.user)?.data?.color;
   if (color) {
-    $(elements).css({"background-color": color});
+    $(elements).css({"background-color": color}).addClass("louder-whisper");
   }
-
 });
 
 CONFIG.debug.hooks = true;
