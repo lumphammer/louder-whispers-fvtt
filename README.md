@@ -1,13 +1,13 @@
-# Better Indents
+# Louder Whispers
 
-Foundry VTT module to embiggen the subfolder indentation, to make the folder structure clearer.
+A module for Foundry VTT which will help you pay agoddamntention to your incoming whispers (private messages), including audio overrides, notifications, and eye-popping chat box styling.
 
 ## Installation
 
 From the Foundry VTT setup screen, go to "Add-on Modules", then "Install module", then in "Manfest URL", paste:
 
 ```
-https://raw.githubusercontent.com/n3dst4/better-indents/main/module.json
+https://gitlab.com/n3dst4/louder-whispers/-/raw/main/module.json
 ```
 
 And click "Install".

@@ -1,5 +1,5 @@
 
-const moduleName = "better-indents";
+const moduleName = "louder-whispers";
 const no = "No";
 const yesTemp = "Yes (temporary)";
 const yesPerm = "Yes (permanent until dismissed)";
@@ -10,9 +10,9 @@ const notifChoices = [no, yesTemp, yesPerm];
 
 const sounds = {
   "None": null,
-  "Airhorn": "modules/better-indents/audio/Air Horn-SoundBible.com-964603082.mp3",
-  "Bike horn": "modules/better-indents/audio/Bike Horn-SoundBible.com-602544869.mp3",
-  "Electronic chime": "modules/better-indents/audio/Store_Door_Chime-Mike_Koenig-570742973.mp3",
+  "Airhorn": `modules/${moduleName}/audio/Air Horn-SoundBible.com-964603082.mp3`,
+  "Bike horn": `modules/${moduleName}/audio/Bike Horn-SoundBible.com-602544869.mp3`,
+  "Electronic chime": `modules/${moduleName}/audio/Store_Door_Chime-Mike_Koenig-570742973.mp3`,
 }
 
 Hooks.once("init", async function () {

@@ -1,20 +1,19 @@
 {
-  "name": "better-indents",
+  "name": "louder-whispers",
   "title": "Better Indents",
-  "description": "Make sidebar folder structure clearer",
-  "author": "N3dst4",
-  "version": "1.0.5",
+  "description": "A module for Foundry VTT which will help you pay agoddamntention to your incoming whispers (private messages), including audio overrides, notifications, and eye-popping chat box styling.",
+  "author": "Neil de Carteret",
+  "version": "1.0.0",
   "minimumCoreVersion": "0.7.9",
   "compatibleCoreVersion": "0.7.9",
   "styles": [
-    "styles/whispers.css",
-    "styles/indents.css"
+    "styles/whispers.css"
   ],
   "esmodules": [
-    "module/notifications.js"
+    "module/louder-whispers.js"
   ],
   "download": "https://github.com/n3dst4/better-indents/archive/main.zip",
-  "manifest": "https://raw.githubusercontent.com/n3dst4/better-indents/main/module.json",
-  "url": "https://github.com/n3dst4/better-indents",
+  "manifest": "https://gitlab.com/n3dst4/louder-whispers/-/raw/main/module.json",
+  "url": "https://gitlab.com/n3dst4/louder-whispers",
   "readme": "README.md"
 }
