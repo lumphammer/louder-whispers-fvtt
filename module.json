@@ -12,7 +12,7 @@
   "esmodules": [
     "module/louder-whispers.js"
   ],
-  "download": "https://github.com/n3dst4/better-indents/archive/main.zip",
+  "download": "https://gitlab.com/n3dst4/louder-whispers/-/archive/main/louder-whispers-main.zip",
   "manifest": "https://gitlab.com/n3dst4/louder-whispers/-/raw/main/module.json",
   "url": "https://gitlab.com/n3dst4/louder-whispers",
   "readme": "README.md"
