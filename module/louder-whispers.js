@@ -74,4 +74,3 @@ Hooks.on("renderChatMessage", async (data, elements, options) => {
   }
 });
 
-CONFIG.debug.hooks = true;
