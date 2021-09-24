@@ -12,8 +12,11 @@
   "esmodules": [
     "module/louder-whispers.js"
   ],
-  "download": "https://gitlab.com/n3dst4/louder-whispers/-/archive/main/louder-whispers-main.zip",
-  "manifest": "https://gitlab.com/n3dst4/louder-whispers/-/raw/main/module.json",
+  "download": "https://gitlab.com/n3dst4/louder-whispers/-/archive/release/louder-whispers-main.zip",
+  "manifest": "https://gitlab.com/n3dst4/louder-whispers/-/raw/release/module.json",
   "url": "https://gitlab.com/n3dst4/louder-whispers",
-  "readme": "README.md"
+  "readme": "https://gitlab.com/n3dst4/louder-whispers/-/blob/release/README.md",
+  "bugs": "https://gitlab.com/n3dst4/louder-whispers/-/issues",
+  "changelog": "https://gitlab.com/n3dst4/louder-whispers/-/blob/release/CHANGELOG.md"
+
 }
