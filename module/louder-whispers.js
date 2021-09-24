@@ -5,7 +5,7 @@ const yesTemp = "Yes (temporary)";
 const yesPerm = "Yes (permanent until dismissed)";
 const showWhisperNotificationsKey = "showWhisperNotifications" ;
 const overrideAudioKey = "overrideAudioKey";
-const enhanceMessageKey  ="enhanceMessage";
+const enhanceMessageKey = "enhanceMessage";
 const notifChoices = [no, yesTemp, yesPerm];
 
 const sounds = {
@@ -46,19 +46,23 @@ Hooks.once("init", async function () {
 
 
 Hooks.on("createChatMessage", async (data, options, userId) => {
-  const showNotif = game.settings.get(moduleName, showWhisperNotificationsKey);
+  const showNotifSetting = game.settings.get(moduleName, showWhisperNotificationsKey);
+  const showNotif = showNotifSetting !== notifChoices.indexOf(no)
   const overrideIndex = game.settings.get(moduleName, overrideAudioKey);
   const overrideKey = Object.keys(sounds)[overrideIndex];
   const override = sounds[overrideKey];
   const isToMe = (data?.data?.whisper ?? []).includes(game.userId);
-  if (override && isToMe) {
-    data.data.sound = override;
-  }
-  if (showNotif !== notifChoices.indexOf(no) && isToMe) {
-    ui.notifications.info(
-      `Whisper from ${data.user.data.name}`,
-      { permanent: showNotif === notifChoices.indexOf(yesPerm)},
-    );
+  const isFromMe = (data?.data?.user ?? "") === game.userId;
+  if (isToMe && !isFromMe) {
+    if (override) {
+      data.data.sound = override;
+    }
+    if (showNotif) {
+      ui.notifications.info(
+        `Whisper from ${data.user.data.name}`,
+        { permanent: showNotif === notifChoices.indexOf(yesPerm)},
+      );
+    }
   }
 });
 
