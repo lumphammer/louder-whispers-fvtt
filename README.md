@@ -4,18 +4,19 @@ A module for Foundry VTT which will help you pay a-goddamn-ttention to your inco
 
 ## Installation
 
-From the Foundry VTT setup screen, go to "Add-on Modules", then "Install module", then in "Manfest URL", paste:
+From the Foundry VTT setup screen, go to "Add-on Modules", and search for "louder whispers".
+
+Alternatively, you can install using the manifest path
 
 ```
-https://gitlab.com/n3dst4/louder-whispers/-/raw/main/module.json
+https://gitlab.com/n3dst4/louder-whispers/-/raw/release/module.json
 ```
-
-And click "Install".
-
 
 ## Usage
 
 None of the options are turned on by default. Go to "Configure Settings" => "Module Settings and turn on the options you want.
+
+If you use a custom audio path, it must be relative to your Foundry server's `Data` folder.
 
 Would you like a feature to allow GMs to blast an airhorn at inattentive players, even when they have all the options turned off? Let me know!
 

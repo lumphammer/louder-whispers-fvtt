@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## v2.1.0
+* Allow custom audio file
+
 ## v2.0.0
 * Dropping FVTT 0.7.x support - I don't even have it installed anywhere. it might still work but not tested.
 * No longer makes makes messages *from* yourself louder (#4)
