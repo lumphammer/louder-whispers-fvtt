@@ -104,7 +104,7 @@ Hooks.on("createChatMessage", async (data, options, userId) => {
     if (showNotif) {
       ui.notifications.info(
         `Whisper from ${data.user.data.name}`,
-        { permanent: showNotif === notifChoices.indexOf(yesPerm)},
+        { permanent: showNotifSetting === notifChoices.indexOf(yesPerm)},
       );
     }
   }
