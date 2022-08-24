@@ -111,14 +111,15 @@ Hooks.on("createChatMessage", async (data, options, userId) => {
 });
 
 Hooks.on("renderChatMessage", async (data, elements, options) => {
-  const enhance = game.settings.get(moduleName, enhanceMessageKey);
+  const enhanceSetting = game.settings.get(moduleName, enhanceMessageKey);
   const isWhisper  = (data?.data?.whisper ?? []).length > 0;
-  if (!(enhance && isWhisper)) {
-    return;
-  }
-  const color = game.users.get(data?.data?.user)?.data?.color;
-  if (color) {
-    $(elements).css({"background-color": color}).addClass("louder-whisper");
+  const isToMe = (data?.data?.whisper ?? []).includes(game.userId);
+  const isFromMe = (data?.data?.user ?? "") === game.userId;
+  if (enhanceSetting && isWhisper && isToMe && !isFromMe) {
+    const color = game.users.get(data?.data?.user)?.data?.color;
+    if (color) {
+      $(elements).css({"background-color": color}).addClass("louder-whisper");
+    }
   }
 });
 
