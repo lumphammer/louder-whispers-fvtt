@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## v3.0.0
+* Foundry v10 compatible release
+
 ## v2.1.2
 * Do not apply vibrance to self-messages
 
