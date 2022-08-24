@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v2.1.2
+* Do not apply vibrance to self-messages
+
+## v2.1.1
+* Fix permanent notifications
+
 ## v2.1.0
 * Allow custom audio file
 
