@@ -95,15 +95,15 @@ Hooks.on("createChatMessage", async (data, options, userId) => {
   const overrideIndex = game.settings.get(moduleName, overrideAudioKey);
   const overrideKey = Object.keys(sounds)[overrideIndex];
   const override = customPathSetting || sounds[overrideKey];
-  const isToMe = (data?.data?.whisper ?? []).includes(game.userId);
-  const isFromMe = (data?.data?.user ?? "") === game.userId;
+  const isToMe = (data?.whisper ?? []).includes(game.userId);
+  const isFromMe = (data?.user?._id ?? "") === game.userId;
   if (isToMe && !isFromMe) {
     if (override) {
-      data.data.sound = override;
+      data.sound = override;
     }
     if (showNotif) {
       ui.notifications.info(
-        `Whisper from ${data.user.data.name}`,
+        `Whisper from ${data.user.name}`,
         { permanent: showNotifSetting === notifChoices.indexOf(yesPerm)},
       );
     }
@@ -112,11 +112,11 @@ Hooks.on("createChatMessage", async (data, options, userId) => {
 
 Hooks.on("renderChatMessage", async (data, elements, options) => {
   const enhanceSetting = game.settings.get(moduleName, enhanceMessageKey);
-  const isWhisper  = (data?.data?.whisper ?? []).length > 0;
-  const isToMe = (data?.data?.whisper ?? []).includes(game.userId);
-  const isFromMe = (data?.data?.user ?? "") === game.userId;
+  const isWhisper  = (data?.whisper ?? []).length > 0;
+  const isToMe = (data?.whisper ?? []).includes(game.userId);
+  const isFromMe = (data?.user?._id ?? "") === game.userId;
   if (enhanceSetting && isWhisper && isToMe && !isFromMe) {
-    const color = game.users.get(data?.data?.user)?.data?.color;
+    const color = game.users.get(data?.user?._id)?.color;
     if (color) {
       $(elements).css({"background-color": color}).addClass("louder-whisper");
     }
