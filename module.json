@@ -3,19 +3,19 @@
   "title": "Louder Whispers",
   "description": "A module for Foundry VTT which will help you pay agoddamntention to your incoming whispers (private messages), including audio overrides, notifications, and eye-popping chat box styling.",
   "author": "Neil de Carteret",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "minimumCoreVersion": "10.278",
-  "compatibleCoreVersion": "10.278",
+  "compatibleCoreVersion": "10.285",
   "styles": [
     "styles/whispers.css"
   ],
   "esmodules": [
     "module/louder-whispers.js"
   ],
-  "download": "https://gitlab.com/n3dst4/louder-whispers/-/archive/v3.0.0/louder-whispers-v3.0.0.zip",
-  "manifest": "https://gitlab.com/n3dst4/louder-whispers/-/raw/v3.0.0/module.json",
+  "download": "https://gitlab.com/n3dst4/louder-whispers/-/archive/v3.1.0/louder-whispers-v3.1.0.zip",
+  "manifest": "https://gitlab.com/n3dst4/louder-whispers/-/raw/v3.1.0/module.json",
   "url": "https://gitlab.com/n3dst4/louder-whispers",
-  "readme": "https://gitlab.com/n3dst4/louder-whispers/-/blob/release/README.md",
+  "readme": "https://gitlab.com/n3dst4/louder-whispers/-/blob/v3.1.0/README.md",
   "bugs": "https://gitlab.com/n3dst4/louder-whispers/-/issues",
   "changelog": "https://gitlab.com/n3dst4/louder-whispers/-/blob/main/CHANGELOG.md"
 }
