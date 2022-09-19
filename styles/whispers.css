@@ -1,10 +1,40 @@
-#chat-log .chat-message.whisper.louder-whisper {
+#chat-log .chat-message.whisper.louder-whisper-to-me {
+  background-size: 100% 100%, 100% 50%, 100% 50%;
+  background-position: 0 0, 0 0, 0 100%;
+  background-repeat: no-repeat;
   background-image:
     /* top-to-bottom shading */
     linear-gradient(to top,
       rgba(255, 255, 255, 0.3),
       rgba(255, 255, 255, 0.6) 100%),
     /* texture */
+    repeating-linear-gradient(135deg,
+      transparent,
+      transparent 20px,
+      rgba(255, 255, 255, 0.2) 20px,
+      rgba(255, 255, 255, 0.2) 40px),
+    repeating-linear-gradient(45deg,
+      transparent,
+      transparent 20px,
+      rgba(255, 255, 255, 0.2) 20px,
+      rgba(255, 255, 255, 0.2) 40px);
+}
+
+#chat-log .chat-message.whisper.louder-whisper-from-me {
+  background-size: 100% 100%, 100% 50%, 100% 50%;
+  background-position: 0 0, 0 0, 0 100%;
+  background-repeat: no-repeat;
+  background-image:
+    /* top-to-bottom shading */
+    linear-gradient(to top,
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.6) 100%),
+    /* texture */
+    repeating-linear-gradient(-135deg,
+      transparent,
+      transparent 20px,
+      rgba(255, 255, 255, 0.2) 20px,
+      rgba(255, 255, 255, 0.2) 40px),
     repeating-linear-gradient(-45deg,
       transparent,
       transparent 20px,
@@ -22,16 +52,12 @@
     repeating-linear-gradient(-45deg,
       rgba(255, 255, 255, 0.3) 0px,
       rgba(255, 255, 255, 0.6) 20px
-      /* rgba(255, 255, 255, 0.6) 10px, */
-      /* rgba(255, 255, 255, 0.6) 20px */
       ),
     repeating-linear-gradient(45deg,
     rgba(255, 255, 255, 0.3) 0px,
     rgba(255, 255, 255, 0.6) 20px
-    /* rgba(255, 255, 255, 0.6) 10px, */
-    /* rgba(255, 255, 255, 0.6) 20px */
     ),
-/* rainbow */
+    /* rainbow */
     linear-gradient(65deg,
       hsl(0deg 100% 55%) 0%,
       hsl(98deg 100% 51%) 39%,

@@ -115,14 +115,16 @@ Hooks.on("renderChatMessage", async (data, elements, options) => {
   const isWhisper  = (data?.whisper ?? []).length > 0;
   const isToMe = (data?.whisper ?? []).includes(game.userId);
   const isFromMe = (data?.user?._id ?? "") === game.userId;
-  if (enhanceSetting && isWhisper && isToMe) {
-    if (isFromMe) {
+  if (enhanceSetting && isWhisper) {
+    const color = game.users.get(data?.user?._id)?.color;
+    if (isFromMe && isToMe) {
       $(elements).addClass("louder-whisper-self");
-    } else {
-      const color = game.users.get(data?.user?._id)?.color;
+    } else if (isToMe) {
       if (color) {
-        $(elements).css({"background-color": color}).addClass("louder-whisper");
+        $(elements).css({"background-color": color}).addClass("louder-whisper-to-me");
       }
+    } else if (isFromMe) {
+      $(elements).css({"background-color": color}).addClass("louder-whisper-from-me");
     }
   }
 });
