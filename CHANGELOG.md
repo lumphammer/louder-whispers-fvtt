@@ -1,5 +1,14 @@
 # CHANGELOG
 
+## v3.3.0
+* Moved to GitHub, no other changes
+
+## v3.2.0
+* Add effects on messages from yourself to others
+
+## v3.1.0
+* Fancy style for messages you send to yourself
+
 ## v3.0.0
 * Foundry v10 compatible release
 
