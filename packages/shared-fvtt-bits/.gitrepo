@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/ingydotnet/git-subrepo#readme
+;
+[subrepo]
+	remote = git@github.com:n3dst4/shared-fvtt-bits.git
+	branch = main
+	commit = 0caa88c60737f70cb101305af045134f1668339c
+	parent = e0935e6f4467b5aa409343c28c40d6421ed8aeea
+	method = merge
+	cmdver = 0.4.9
