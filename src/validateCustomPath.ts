@@ -1,14 +1,7 @@
 import { customPathKey, moduleName } from "./constants";
 import { assertGame } from "./functions";
 
-let customPath: string | null = null;
-
-Hooks.once("init", function () {
-  assertGame(game);
-  customPath = (game.settings.get(moduleName, customPathKey) as string).trim();
-});
-
-export async function validateCustomPath() {
+export async function validateCustomPath(customPath: string) {
   assertGame(game);
 
   const customPathSetting = (
@@ -29,7 +22,6 @@ export async function validateCustomPath() {
         throw new Error(errorMessage);
       }
     } catch {
-      customPath = null;
       ui?.notifications?.error(errorMessage);
     }
   }

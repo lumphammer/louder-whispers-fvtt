@@ -13,6 +13,12 @@ import {
 import { assertGame } from "./functions";
 import { validateCustomPath } from "./validateCustomPath";
 
+let customPath = "";
+
+Hooks.once("init", function () {
+  assertGame(game);
+});
+
 Hooks.once("init", function () {
   assertGame(game);
   game.settings.register<
@@ -57,17 +63,18 @@ Hooks.once("init", function () {
     default: "",
     type: String,
   });
+  customPath = (game.settings.get(moduleName, customPathKey) as string).trim();
 });
 
 Hooks.once("ready", () => {
-  void validateCustomPath();
+  void validateCustomPath(customPath);
 });
 
-Hooks.on("closeSettingsConfig", validateCustomPath);
+Hooks.on("closeSettingsConfig", () => validateCustomPath(customPath));
 
 Hooks.on(
   "createChatMessage",
-  async (data: any, options: any, userId: string) => {
+  async (data: ChatMessage, options: any, userId: string) => {
     assertGame(game);
     const showNotifSetting = game.settings.get(
       moduleName,
@@ -87,7 +94,7 @@ Hooks.on(
     ) as number;
     const overrideKey = Object.keys(sounds)[overrideIndex];
     const override = customPathSetting || sounds[overrideKey];
-    const isToMe = (data?.whisper ?? []).includes(game.userId);
+    const isToMe = (data?.whisper ?? []).includes(game.userId ?? "");
     const isFromMe = (data?.author?._id ?? "") === game.userId;
     if (isToMe && !isFromMe) {
       if (override) {
@@ -102,26 +109,40 @@ Hooks.on(
   },
 );
 
-Hooks.on("renderChatMessage", (data, elements, options) => {
-  assertGame(game);
-  const enhanceSetting = game.settings.get(moduleName, enhanceMessageKey);
-  const isWhisper = (data?.whisper ?? []).length > 0;
-  const isToMe = (data?.whisper ?? []).includes(game.userId);
-  const isFromMe = (data?.author?._id ?? "") === game.userId;
-  if (enhanceSetting && isWhisper) {
-    const color = game.users.get(data?.author?._id)?.color;
-    if (isFromMe && isToMe) {
-      $(elements).addClass("louder-whisper-self");
-    } else if (isToMe) {
-      if (color) {
+Hooks.on(
+  "renderChatMessage",
+  (data: ChatMessage, elements: JQuery, options: any) => {
+    assertGame(game);
+    const enhanceSetting = game.settings.get(moduleName, enhanceMessageKey);
+    const isWhisper = (data?.whisper ?? []).length > 0;
+    const isToMe = (data?.whisper ?? []).includes(game.userId ?? "");
+    const isFromMe = (data?.author?._id ?? "") === game.userId;
+    if (enhanceSetting && isWhisper) {
+      const color = game.users?.get(data?.author?._id)?.color;
+      if (isFromMe && isToMe) {
+        $(elements).addClass("louder-whisper-self");
+      } else if (isToMe) {
+        if (color) {
+          $(elements)
+            .css({ "background-color": color })
+            .addClass("louder-whisper-to-me");
+        }
+      } else if (isFromMe) {
         $(elements)
-          .css({ "background-color": color })
-          .addClass("louder-whisper-to-me");
+          .css({ "background-color": color ?? "inherit" })
+          .addClass("louder-whisper-from-me");
       }
-    } else if (isFromMe) {
-      $(elements)
-        .css({ "background-color": color })
-        .addClass("louder-whisper-from-me");
     }
+  },
+);
+
+declare global {
+  interface ChatMessage {
+    whisper: string[];
+    author: {
+      _id: string;
+      name: string;
+    };
+    sound: string | null;
   }
-});
+}
