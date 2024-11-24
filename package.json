@@ -25,6 +25,7 @@
   },
   "devDependencies": {
     "@league-of-foundry-developers/foundry-vtt-types": "^9.280.1",
+    "@lumphammer/investigator-fvtt-types": "^1.13.2",
     "@lumphammer/shared-fvtt-bits": "workspace:^",
     "@swc/plugin-emotion": "^7.0.1",
     "@types/react": "^18.3.12",
@@ -37,6 +38,7 @@
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "eslint-plugin-unused-imports": "^4.1.4",
+    "typescript": "^5.7.2",
     "vite": "^5.4.11",
     "vite-plugin-svgr": "^4.3.0"
   }

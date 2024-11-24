@@ -21,6 +21,9 @@ importers:
       '@league-of-foundry-developers/foundry-vtt-types':
         specifier: ^9.280.1
         version: 9.280.1(@pixi/constants@5.3.11)(@pixi/core@5.3.11)(@pixi/display@5.3.11)(@pixi/graphics@5.3.11)(@pixi/math@5.3.11)(@pixi/utils@5.3.11)
+      '@lumphammer/investigator-fvtt-types':
+        specifier: ^1.13.2
+        version: 1.13.2
       '@lumphammer/shared-fvtt-bits':
         specifier: workspace:^
         version: link:packages/shared-fvtt-bits
@@ -57,6 +60,9 @@ importers:
       eslint-plugin-unused-imports:
         specifier: ^4.1.4
         version: 4.1.4(@typescript-eslint/eslint-plugin@8.15.0(@typescript-eslint/parser@8.15.0(eslint@8.57.1)(typescript@5.7.2))(eslint@8.57.1)(typescript@5.7.2))(eslint@8.57.1)
+      typescript:
+        specifier: ^5.7.2
+        version: 5.7.2
       vite:
         specifier: ^5.4.11
         version: 5.4.11(@types/node@22.9.3)
