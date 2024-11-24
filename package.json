@@ -7,7 +7,12 @@
   "scripts": {
     "build": "vite build",
     "dev": "vite",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Where we're going, we don't need tests.\"",
+    "lint:fix": "eslint src --fix",
+    "lint:check": "eslint src",
+    "format:check": "prettier --check src",
+    "format:fix": "prettier --write src",
+    "typecheck": "tsc --noEmit"
   },
   "keywords": [],
   "author": "",
