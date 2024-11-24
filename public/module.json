@@ -16,10 +16,10 @@
       "email": "contact@lumphammer.com"
     }
   ],
-  "download": "https://github.com/n3dst4/louder-whispers-fvtt/archive/refs/tags/v3.3.0.zip",
-  "manifest": "https://raw.githubusercontent.com/n3dst4/louder-whispers-fvtt/v3.3.0/module.json",
-  "url": "https://github.com/n3dst4/louder-whispers-fvtt",
-  "readme": "https://github.com/n3dst4/louder-whispers-fvtt/blob/v3.3.0/README.md",
-  "bugs": "https://github.com/n3dst4/louder-whispers-fvtt/issues",
-  "changelog": "https://github.com/n3dst4/louder-whispers-fvtt/blob/main/CHANGELOG.md"
+  "download": "https://github.com/lumphammer/louder-whispers-fvtt/archive/refs/tags/v3.3.0.zip",
+  "manifest": "https://raw.githubusercontent.com/lumphammer/louder-whispers-fvtt/v3.3.0/module.json",
+  "url": "https://github.com/lumphammer/louder-whispers-fvtt",
+  "readme": "https://github.com/lumphammer/louder-whispers-fvtt/blob/v3.3.0/README.md",
+  "bugs": "https://github.com/lumphammer/louder-whispers-fvtt/issues",
+  "changelog": "https://github.com/lumphammer/louder-whispers-fvtt/blob/main/CHANGELOG.md"
 }
