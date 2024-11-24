@@ -2,7 +2,7 @@
   "id": "louder-whispers",
   "title": "Louder Whispers",
   "description": "A module for Foundry VTT which will help you pay agoddamntention to your incoming whispers (private messages), including audio overrides, notifications, and eye-popping chat box styling.",
-  "version": "3.3.0",
+  "version": "3.3.1-alpha.1",
   "styles": ["whispers.css"],
   "esmodules": ["module/louder-whispers.js"],
   "compatibility": {
