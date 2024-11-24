@@ -1,20 +1,19 @@
-
 const moduleName = "louder-whispers";
 const no = "No";
 const yesTemp = "Yes (temporary)";
 const yesPerm = "Yes (permanent until dismissed)";
-const showWhisperNotificationsKey = "showWhisperNotifications" ;
+const showWhisperNotificationsKey = "showWhisperNotifications";
 const overrideAudioKey = "overrideAudioKey";
 const enhanceMessageKey = "enhanceMessage";
-const customPathKey = "customPath"
+const customPathKey = "customPath";
 const notifChoices = [no, yesTemp, yesPerm];
 
 const sounds = {
-  "None": null,
-  "Airhorn": `modules/${moduleName}/audio/Air Horn-SoundBible.com-964603082.mp3`,
+  None: null,
+  Airhorn: `modules/${moduleName}/audio/Air Horn-SoundBible.com-964603082.mp3`,
   "Bike horn": `modules/${moduleName}/audio/Bike Horn-SoundBible.com-602544869.mp3`,
   "Electronic chime": `modules/${moduleName}/audio/Store_Door_Chime-Mike_Koenig-570742973.mp3`,
-}
+};
 
 let customPath = null;
 
@@ -60,7 +59,7 @@ Hooks.once("ready", () => {
   validateCustomPath();
 });
 
-async function validateCustomPath () {
+async function validateCustomPath() {
   const customPathSetting = game.settings.get(moduleName, customPathKey).trim();
   const errorMessage = `[Louder Whispers] Custom audio file ${customPathSetting} not found (should be relative to your Data folder.)`;
   if (customPathSetting) {
@@ -69,10 +68,12 @@ async function validateCustomPath () {
       if (result.files.length >= 1) {
         if (customPath !== customPathSetting) {
           customPath = customPathSetting;
-          ui.notifications.info(`[Louder Whispers] Custom audio file set to ${customPath}`);
+          ui.notifications.info(
+            `[Louder Whispers] Custom audio file set to ${customPath}`
+          );
         }
       } else {
-        throw new Error(errorMessage)
+        throw new Error(errorMessage);
       }
     } catch (e) {
       customPath = null;
@@ -83,15 +84,17 @@ async function validateCustomPath () {
 
 Hooks.on("closeSettingsConfig", validateCustomPath);
 
-
 Hooks.on("createChatMessage", async (data, options, userId) => {
-  const showNotifSetting = game.settings.get(moduleName, showWhisperNotificationsKey);
+  const showNotifSetting = game.settings.get(
+    moduleName,
+    showWhisperNotificationsKey
+  );
   const customPathSetting = game.settings.get(moduleName, customPathKey).trim();
   if (customPathSetting) {
     let result = await FilePicker.browse("data", customPathSetting);
     console.log(result);
   }
-  const showNotif = showNotifSetting !== notifChoices.indexOf(no)
+  const showNotif = showNotifSetting !== notifChoices.indexOf(no);
   const overrideIndex = game.settings.get(moduleName, overrideAudioKey);
   const overrideKey = Object.keys(sounds)[overrideIndex];
   const override = customPathSetting || sounds[overrideKey];
@@ -111,7 +114,7 @@ Hooks.on("createChatMessage", async (data, options, userId) => {
 
 Hooks.on("renderChatMessage", async (data, elements, options) => {
   const enhanceSetting = game.settings.get(moduleName, enhanceMessageKey);
-  const isWhisper  = (data?.whisper ?? []).length > 0;
+  const isWhisper = (data?.whisper ?? []).length > 0;
   const isToMe = (data?.whisper ?? []).includes(game.userId);
   const isFromMe = (data?.author?._id ?? "") === game.userId;
   if (enhanceSetting && isWhisper) {
@@ -120,11 +123,14 @@ Hooks.on("renderChatMessage", async (data, elements, options) => {
       $(elements).addClass("louder-whisper-self");
     } else if (isToMe) {
       if (color) {
-        $(elements).css({"background-color": color}).addClass("louder-whisper-to-me");
+        $(elements)
+          .css({ "background-color": color })
+          .addClass("louder-whisper-to-me");
       }
     } else if (isFromMe) {
-      $(elements).css({"background-color": color}).addClass("louder-whisper-from-me");
+      $(elements)
+        .css({ "background-color": color })
+        .addClass("louder-whisper-from-me");
     }
   }
 });
-
