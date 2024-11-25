@@ -74,7 +74,7 @@ Hooks.on("closeSettingsConfig", () => validateCustomPath(customPath));
 
 Hooks.on(
   "createChatMessage",
-  async (data: ChatMessage, options: any, userId: string) => {
+  (data: ChatMessage, options: any, userId: string) => {
     assertGame(game);
     const showNotifSetting = game.settings.get(
       moduleName,
@@ -83,10 +83,6 @@ Hooks.on(
     const customPathSetting = (
       game.settings.get(moduleName, customPathKey) as string
     ).trim();
-    if (customPathSetting) {
-      const result = await FilePicker.browse("data", customPathSetting);
-      console.log(result);
-    }
     const showNotif = showNotifSetting !== notifChoices.indexOf(no);
     const overrideIndex = game.settings.get(
       moduleName,
