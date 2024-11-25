@@ -49,10 +49,9 @@ Messages to yourself get a fabulous rainbow background.
 
 ### "Custom audio path"
 
+If you don't like any of the provided sound effects, you can upload a `.wav` or `.mp3` (or any other browser-compatible audio format)  to your Foundry server's `Data` folder and use that instead.
 
-If you use a custom audio path, it must be relative to your Foundry server's `Data` folder.
-
-
+Enter the path to your audio file in the field - it should be relative to your Foundry server's `Data` folder.
 
 
 
