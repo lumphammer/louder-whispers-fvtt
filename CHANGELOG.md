@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## Unreleased
+
+* Foundry VTT v12 compatible
+* Updated and overhauled the codebase
+
 ## v3.3.0
 * Moved to GitHub, no other changes
 
