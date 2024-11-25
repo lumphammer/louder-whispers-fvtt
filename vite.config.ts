@@ -5,6 +5,7 @@ const config = createFvttViteConfig({
   foundryPackageId,
   packageType: "module",
   importMetaUrl: import.meta.url,
+  sourceMap: true,
 });
 
 export default config;
