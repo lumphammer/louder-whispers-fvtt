@@ -38,7 +38,7 @@ Hooks.once("init", function () {
     moduleName,
     overrideAudioKey,
     {
-      name: "Override the audio cue for whispers?",
+      name: "Override audio for whispers?",
       hint: "The default sound for an incoming whisper can be a little quiet. Pick one of these to make it more audible.",
       scope: "client",
       config: true,
@@ -48,7 +48,7 @@ Hooks.once("init", function () {
     },
   );
   game.settings.register(moduleName, enhanceMessageKey, {
-    name: "Make whisper messages more vibrant?",
+    name: "Make whisper messages stand out in the chat log?",
     hint: "If ticked, whisper messages will stand out more and be coloured to match the sender.",
     scope: "client",
     config: true,
