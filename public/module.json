@@ -6,8 +6,8 @@
   "styles": ["louderWhispers.css"],
   "esmodules": ["module/louder-whispers.js"],
   "compatibility": {
-    "minimum": "10.278",
-    "verified": "10.291"
+    "minimum": "12",
+    "verified": "12"
   },
   "authors": [
     {
