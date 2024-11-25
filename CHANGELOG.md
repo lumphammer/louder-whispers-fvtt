@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## Unreleased
+## v4.0.0 (2024-11-25)
 
 * Foundry VTT v12 compatible
 * Updated and overhauled the codebase
