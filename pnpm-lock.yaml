@@ -28,8 +28,8 @@ importers:
         specifier: workspace:^
         version: link:packages/shared-fvtt-bits
       '@swc/plugin-emotion':
-        specifier: ^7.0.3
-        version: 7.0.3
+        specifier: ^8.0.1
+        version: 8.0.1
       '@types/react':
         specifier: ^18.3.12
         version: 18.3.12
@@ -1008,8 +1008,8 @@ packages:
   '@swc/counter@0.1.3':
     resolution: {integrity: sha512-e2BR4lsJkkRlKZ/qCHPw9ZaSxc0MVUd7gtbtaB7aMvHeJVYe8sOB8DBZkP2DtISHGSku9sCK6T6cnY0CtXrOCQ==}
 
-  '@swc/plugin-emotion@7.0.3':
-    resolution: {integrity: sha512-D8Dy2/nfdiL8Q7N0jyIEU0fPd45vc9rECloDAVzLdo6WlBHfk+W3b6T2aYnENEwdVSEhwAXguGTDC43hnsncMw==}
+  '@swc/plugin-emotion@8.0.1':
+    resolution: {integrity: sha512-SzUn6NA4BHaYV3oTuGYrQa32fD8YDxEMrv9W8zp+H3C0n+qmfEtWW3VggmAqVL3OAmuNNvwjrGdFKjbCTFMwnA==}
 
   '@swc/types@0.1.17':
     resolution: {integrity: sha512-V5gRru+aD8YVyCOMAjMpWR1Ui577DD5KSJsHP8RAxopAH22jFz6GZd/qxqjO6MJHQhcsjvjOFXyDhyLQUnMveQ==}
@@ -3855,7 +3855,7 @@ snapshots:
 
   '@swc/counter@0.1.3': {}
 
-  '@swc/plugin-emotion@7.0.3':
+  '@swc/plugin-emotion@8.0.1':
     dependencies:
       '@swc/counter': 0.1.3
 
