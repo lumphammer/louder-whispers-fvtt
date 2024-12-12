@@ -22,16 +22,16 @@
   "packageManager": "pnpm@9.15.0+sha512.76e2379760a4328ec4415815bcd6628dee727af3779aaa4c914e3944156c4299921a89f976381ee107d41f12cfa4b66681ca9c718f0668fa0831ed4c6d8ba56c",
   "dependencies": {
     "@emotion/react": "^11.13.5",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@league-of-foundry-developers/foundry-vtt-types": "^9.280.1",
     "@lumphammer/investigator-fvtt-types": "^1.13.2",
     "@lumphammer/shared-fvtt-bits": "workspace:^",
     "@swc/plugin-emotion": "^7.0.3",
-    "@types/react": "^18.3.16",
-    "@types/react-dom": "^18.3.5",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.2",
     "@typescript-eslint/parser": "^8.17.0",
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^9.1.0",
