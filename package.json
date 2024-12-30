@@ -19,7 +19,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@9.15.1+sha512.1acb565e6193efbebda772702950469150cf12bcc764262e7587e71d19dc98a423dff9536e57ea44c49bdf790ff694e83c27be5faa23d67e0c033b583be4bfcf",
+  "packageManager": "pnpm@9.15.2+sha512.93e57b0126f0df74ce6bff29680394c0ba54ec47246b9cf321f0121d8d9bb03f750a705f24edc3c1180853afd7c2c3b94196d0a3d53d3e069d9e2793ef11f321",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "react": "^19.0.0",
@@ -32,7 +32,7 @@
     "@swc/plugin-emotion": "^7.0.3",
     "@types/react": "^19.0.2",
     "@types/react-dom": "^19.0.2",
-    "@typescript-eslint/parser": "^8.18.1",
+    "@typescript-eslint/parser": "^8.18.2",
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^9.1.0",
     "eslint-config-standard": "^17.1.0",
@@ -41,7 +41,7 @@
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "eslint-plugin-unused-imports": "^4.1.4",
     "typescript": "^5.7.2",
-    "vite": "^6.0.5",
+    "vite": "^6.0.6",
     "vite-plugin-svgr": "^4.3.0",
     "vitest": "^2.1.8"
   }
