@@ -29,7 +29,7 @@
     "@league-of-foundry-developers/foundry-vtt-types": "^9.280.1",
     "@lumphammer/investigator-fvtt-types": "^1.13.2",
     "@lumphammer/shared-fvtt-bits": "workspace:^",
-    "@swc/plugin-emotion": "^7.0.3",
+    "@swc/plugin-emotion": "^8.0.3",
     "@types/react": "^19.0.2",
     "@types/react-dom": "^19.0.2",
     "@typescript-eslint/parser": "^8.19.0",
