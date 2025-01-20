@@ -34,7 +34,7 @@
     "@types/react-dom": "^19.0.3",
     "@typescript-eslint/parser": "^8.20.0",
     "eslint": "^8.57.1",
-    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-prettier": "^10.0.1",
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin": "link:@@typescript-eslint/eslint-plugin",
     "eslint-plugin-react-hooks": "^5.1.0",
