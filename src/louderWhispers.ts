@@ -15,38 +15,33 @@ import { validateCustomPath } from "./validateCustomPath";
 
 let customPath = "";
 
+// @ts-expect-error no idea
 Hooks.once("init", function () {
   assertGame(game);
 });
 
 Hooks.once("init", function () {
   assertGame(game);
-  game.settings.register<
-    typeof moduleName,
-    typeof showWhisperNotificationsKey,
-    number
-  >(moduleName, showWhisperNotificationsKey, {
+  game.settings.register(moduleName, showWhisperNotificationsKey, {
     name: "Show notifications when you get whispers?",
     hint: "If you're not always looking at the chat log, choose one of these options to throw up a notification when you get a whisper.",
     scope: "client",
     config: true,
+    // @ts-expect-error this actually works
     choices: [no, yesTemp, yesPerm],
     default: 0,
     type: Number,
   });
-  game.settings.register<typeof moduleName, typeof overrideAudioKey, number>(
-    moduleName,
-    overrideAudioKey,
-    {
-      name: "Override audio for whispers?",
-      hint: "The default sound for an incoming whisper can be a little quiet. Pick one of these to make it more audible.",
-      scope: "client",
-      config: true,
-      choices: Object.keys(sounds),
-      default: Object.keys(sounds).indexOf("None"),
-      type: Number,
-    },
-  );
+  game.settings.register(moduleName, overrideAudioKey, {
+    name: "Override audio for whispers?",
+    hint: "The default sound for an incoming whisper can be a little quiet. Pick one of these to make it more audible.",
+    scope: "client",
+    config: true,
+    // @ts-expect-error this actually works
+    choices: Object.keys(sounds),
+    default: Object.keys(sounds).indexOf("None"),
+    type: Number,
+  });
   game.settings.register(moduleName, enhanceMessageKey, {
     name: "Make whisper messages stand out in the chat log?",
     hint: "If ticked, whisper messages will stand out more and be coloured to match the sender.",
@@ -63,7 +58,7 @@ Hooks.once("init", function () {
     default: "",
     type: String,
   });
-  customPath = (game.settings.get(moduleName, customPathKey) as string).trim();
+  customPath = game.settings.get(moduleName, customPathKey).trim();
 });
 
 Hooks.once("ready", () => {
@@ -72,6 +67,7 @@ Hooks.once("ready", () => {
 
 Hooks.on("closeSettingsConfig", () => validateCustomPath(customPath));
 
+// @ts-expect-error we haven't configured the types for this yet
 Hooks.on(
   "createChatMessage",
   (data: ChatMessage, options: any, userId: string) => {
@@ -79,15 +75,12 @@ Hooks.on(
     const showNotifSetting = game.settings.get(
       moduleName,
       showWhisperNotificationsKey,
-    ) as number;
-    const customPathSetting = (
-      game.settings.get(moduleName, customPathKey) as string
-    ).trim();
+    );
+    const customPathSetting = game.settings
+      .get(moduleName, customPathKey)
+      .trim();
     const showNotif = showNotifSetting !== notifChoices.indexOf(no);
-    const overrideIndex = game.settings.get(
-      moduleName,
-      overrideAudioKey,
-    ) as number;
+    const overrideIndex = game.settings.get(moduleName, overrideAudioKey);
     const overrideKey = Object.keys(sounds)[overrideIndex];
     const override = customPathSetting || sounds[overrideKey];
     const isToMe = (data?.whisper ?? []).includes(game.userId ?? "");
@@ -114,31 +107,18 @@ Hooks.on(
     const isToMe = (data?.whisper ?? []).includes(game.userId ?? "");
     const isFromMe = (data?.author?._id ?? "") === game.userId;
     if (enhanceSetting && isWhisper) {
-      const color = game.users?.get(data?.author?._id)?.color;
+      const color = game.users?.get(data?.author?._id ?? "")?.color;
       if (isFromMe && isToMe) {
         $(elements).addClass("louder-whisper-self");
       } else if (isToMe) {
-        if (color) {
-          $(elements)
-            .css({ "background-color": color })
-            .addClass("louder-whisper-to-me");
-        }
+        $(elements)
+          .css("background-color", color?.toString() ?? "inherit")
+          .addClass("louder-whisper-to-me");
       } else if (isFromMe) {
         $(elements)
-          .css({ "background-color": color ?? "inherit" })
+          .css("background-color", color?.toString() ?? "inherit")
           .addClass("louder-whisper-from-me");
       }
     }
   },
 );
-
-declare global {
-  interface ChatMessage {
-    whisper: string[];
-    author: {
-      _id: string;
-      name: string;
-    };
-    sound: string | null;
-  }
-}

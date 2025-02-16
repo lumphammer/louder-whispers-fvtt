@@ -4,9 +4,7 @@ import { assertGame } from "./functions";
 export async function validateCustomPath(customPath: string) {
   assertGame(game);
 
-  const customPathSetting = (
-    game.settings.get(moduleName, customPathKey) as string
-  ).trim();
+  const customPathSetting = game.settings.get(moduleName, customPathKey).trim();
   const errorMessage = `[Louder Whispers] Custom audio file ${customPathSetting} not found (should be relative to your Data folder.)`;
   if (customPathSetting) {
     try {
