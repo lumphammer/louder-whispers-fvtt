@@ -15,7 +15,6 @@ import { validateCustomPath } from "./validateCustomPath";
 
 let customPath = "";
 
-// @ts-expect-error no idea
 Hooks.once("init", function () {
   assertGame(game);
 });
@@ -67,7 +66,6 @@ Hooks.once("ready", () => {
 
 Hooks.on("closeSettingsConfig", () => validateCustomPath(customPath));
 
-// @ts-expect-error we haven't configured the types for this yet
 Hooks.on(
   "createChatMessage",
   (data: ChatMessage, options: any, userId: string) => {
