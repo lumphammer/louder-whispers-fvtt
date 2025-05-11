@@ -132,3 +132,5 @@ dist
 build/
 .swc
 stats
+
+foundryconfig.json
