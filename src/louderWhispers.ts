@@ -97,8 +97,8 @@ Hooks.on(
 );
 
 Hooks.on(
-  "renderChatMessage",
-  (data: ChatMessage, elements: JQuery, options: any) => {
+  "renderChatMessageHTML",
+  (data: ChatMessage, element: HTMLElement, options: any) => {
     assertGame(game);
     const enhanceSetting = game.settings.get(moduleName, enhanceMessageKey);
     const isWhisper = (data?.whisper ?? []).length > 0;
@@ -107,15 +107,13 @@ Hooks.on(
     if (enhanceSetting && isWhisper) {
       const color = game.users?.get(data?.author?._id ?? "")?.color;
       if (isFromMe && isToMe) {
-        $(elements).addClass("louder-whisper-self");
+        element.classList.add("louder-whisper-self");
       } else if (isToMe) {
-        $(elements)
-          .css("background-color", color?.toString() ?? "inherit")
-          .addClass("louder-whisper-to-me");
+        element.classList.add("louder-whisper-to-me");
+        element.style.backgroundColor = color?.toString() ?? "inherit";
       } else if (isFromMe) {
-        $(elements)
-          .css("background-color", color?.toString() ?? "inherit")
-          .addClass("louder-whisper-from-me");
+        element.classList.add("louder-whisper-from-me");
+        element.style.backgroundColor = color?.toString() ?? "inherit";
       }
     }
   },
