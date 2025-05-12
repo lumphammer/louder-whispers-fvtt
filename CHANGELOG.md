@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v5.1.0 (2025-05-12)
+
+* Foundry VTT v13 compatible.
+* Also: We're using OKLCH relative colours for the message backgrounds now, so we get consistent perceptual lightness (luminance) no matter what user colour is set (before, if your user colour was dark, your messages would appear slightly dark too.)
+
 ## v4.0.0 (2024-11-25)
 
 * Foundry VTT v12 compatible
