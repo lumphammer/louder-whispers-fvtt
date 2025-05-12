@@ -13,6 +13,8 @@ import {
 import { assertGame } from "./functions";
 import { validateCustomPath } from "./validateCustomPath";
 
+import "./louderWhispers.css";
+
 let customPath = "";
 
 Hooks.once("init", function () {
@@ -110,10 +112,10 @@ Hooks.on(
         element.classList.add("louder-whisper-self");
       } else if (isToMe) {
         element.classList.add("louder-whisper-to-me");
-        element.style.backgroundColor = color?.toString() ?? "inherit";
+        element.style.setProperty("--user-color", color?.toString() || null);
       } else if (isFromMe) {
         element.classList.add("louder-whisper-from-me");
-        element.style.backgroundColor = color?.toString() ?? "inherit";
+        element.style.setProperty("--user-color", color?.toString() || null);
       }
     }
   },
