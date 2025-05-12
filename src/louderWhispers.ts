@@ -98,7 +98,7 @@ Hooks.on(
 
 Hooks.on(
   "renderChatMessageHTML",
-  (data: ChatMessage, element: HTMLElement, options: any) => {
+  (data: ChatMessage, element: HTMLElement, options: unknown) => {
     assertGame(game);
     const enhanceSetting = game.settings.get(moduleName, enhanceMessageKey);
     const isWhisper = (data?.whisper ?? []).length > 0;
