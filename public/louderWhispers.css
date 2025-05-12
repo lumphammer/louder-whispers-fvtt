@@ -1,4 +1,4 @@
-.chat-sidebar .chat-message.whisper.louder-whisper-to-me {
+.chat-log .chat-message.whisper.louder-whisper-to-me {
   background-size: 100% 100%, 100% 50%, 100% 50%;
   background-position: 0 0, 0 0, 0 100%;
   background-repeat: no-repeat;
@@ -20,7 +20,7 @@
       rgba(255, 255, 255, 0.2) 40px);
 }
 
-.chat-sidebar .chat-message.whisper.louder-whisper-from-me {
+.chat-log .chat-message.whisper.louder-whisper-from-me {
   background-size: 100% 100%, 100% 50%, 100% 50%;
   background-position: 0 0, 0 0, 0 100%;
   background-repeat: no-repeat;
@@ -42,7 +42,7 @@
       rgba(255, 255, 255, 0.2) 40px);
 }
 
-.chat-sidebar .chat-message.whisper.louder-whisper-self {
+.chat-log .chat-message.whisper.louder-whisper-self {
   background-image:
     /* top-to-bottom shading */
     linear-gradient(to top,
