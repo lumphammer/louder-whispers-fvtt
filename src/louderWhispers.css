@@ -7,7 +7,7 @@
     100% 50%;
   /*
    * see https://developer.mozilla.org/en-US/docs/Web/CSS/background-position#regarding_percentages
-   * for why 100% put the at the bottomrather than *past* the bottom
+   * for why 100% put the image at the bottom  rather than *past* the bottom
    */
   background-position:
     0 0,
@@ -17,7 +17,7 @@
   background-blend-mode: normal, normal, normal;
 
   /*
-   * set the colors usiong OKLCH so we can ghet perceptually equal brightness
+   * set the colors using OKLCH so we can get perceptually equal brightness
    * regardless of the user's color.
    */
   --color1: oklch(from var(--user-color) 0.95 0.1 h);
@@ -35,14 +35,14 @@
       rgba(255, 255, 255, 0),
       rgba(255, 255, 255, 0.6) 100%
     ),
-    /* texture */
-      repeating-linear-gradient(
-        var(--angle1),
-        var(--color1),
-        var(--color1) 20px,
-        var(--color2) 20px,
-        var(--color2) 40px
-      ),
+    /* chevron */
+    repeating-linear-gradient(
+      var(--angle1),
+      var(--color1),
+      var(--color1) 20px,
+      var(--color2) 20px,
+      var(--color2) 40px
+    ),
     repeating-linear-gradient(
       var(--angle2),
       var(--color1),
