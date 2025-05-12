@@ -1,3 +1,4 @@
+/* LOUDER WHISPERS */
 .chat-log .chat-message.whisper:is(.louder-whisper-to-me, .louder-whisper-from-me) {
   background-size:
     100% 100%,
@@ -20,6 +21,12 @@
    */
   --color1: oklch(from var(--user-color) 0.95 0.1 h);
   --color2: oklch(from var(--user-color) 0.9 0.1 h);
+
+  /*
+   * the background-image is composed from two angled repeating linear gradients
+   * to form the chevron effect, with a linear-gradient on top to give a
+   * top-to-bottom shading effect.
+   */
   background-image:
     /* top-to-bottom shading */
     linear-gradient(to top,
@@ -67,11 +74,20 @@
     ),
     /* rainbow */
     linear-gradient(65deg,
-      hsl(0deg 100% 55%) 0%,
-      hsl(98deg 100% 51%) 39%,
-      hsl(178deg 100% 50%) 67%,
-      hsl(260deg 100% 50%) 89%,
-      hsl(0deg 100% 50%) 100%);
+      oklch(0.8  0.3 0deg ) 0%,
+      oklch(0.8  0.3 30deg ) calc(100% * calc(30 / 360)),
+      oklch(0.8  0.3 60deg ) calc(100% * calc(60 / 360)),
+      oklch(0.8  0.3 90deg ) calc(100% * calc(90 / 360)),
+      oklch(0.8  0.3 120deg ) calc(100% * calc(120 / 360)),
+      oklch(0.8  0.3 150deg ) calc(100% * calc(150 / 360)),
+      oklch(0.8  0.3 180deg ) calc(100% * calc(180 / 360)),
+      oklch(0.8  0.3 210deg ) calc(100% * calc(210 / 360)),
+      oklch(0.8  0.3 240deg ) calc(100% * calc(240 / 360)),
+      oklch(0.8  0.3 270deg ) calc(100% * calc(270 / 360)),
+      oklch(0.8  0.3 300deg ) calc(100% * calc(300 / 360)),
+      oklch(0.8  0.3 330deg ) calc(100% * calc(330 / 360)),
+      oklch(0.8  0.3 360deg ) 100%);
+
 }
 
 /*
