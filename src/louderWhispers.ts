@@ -67,7 +67,7 @@ Hooks.once("ready", () => {
 Hooks.on("closeSettingsConfig", () => validateCustomPath(customPath));
 
 Hooks.on(
-  "createChatMessageHTML",
+  "createChatMessage",
   (data: ChatMessage, options: any, userId: string) => {
     assertGame(game);
     const showNotifSetting = game.settings.get(
