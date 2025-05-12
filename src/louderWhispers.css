@@ -1,5 +1,6 @@
 /* LOUDER WHISPERS */
-.chat-log .chat-message.whisper:is(.louder-whisper-to-me, .louder-whisper-from-me) {
+.chat-log
+  .chat-message.whisper:is(.louder-whisper-to-me, .louder-whisper-from-me) {
   background-size:
     100% 100%,
     100% 50%,
@@ -29,23 +30,27 @@
    */
   background-image:
     /* top-to-bottom shading */
-    linear-gradient(to top,
+    linear-gradient(
+      to top,
       rgba(255, 255, 255, 0),
       rgba(255, 255, 255, 0.6) 100%
-      ),
+    ),
     /* texture */
-    repeating-linear-gradient(var(--angle1),
+      repeating-linear-gradient(
+        var(--angle1),
+        var(--color1),
+        var(--color1) 20px,
+        var(--color2) 20px,
+        var(--color2) 40px
+      ),
+    repeating-linear-gradient(
+      var(--angle2),
       var(--color1),
       var(--color1) 20px,
       var(--color2) 20px,
-      var(--color2) 40px),
-    repeating-linear-gradient(var(--angle2),
-      var(--color1),
-      var(--color1) 20px,
-      var(--color2) 20px,
-      var(--color2) 40px);
+      var(--color2) 40px
+    );
 }
-
 
 .chat-log .chat-message.whisper.louder-whisper-to-me {
   --angle1: 135deg;
@@ -60,34 +65,39 @@
 .chat-log .chat-message.whisper.louder-whisper-self {
   background-image:
     /* top-to-bottom shading */
-    linear-gradient(to top,
+    linear-gradient(
+      to top,
       rgba(255, 255, 255, 0.3),
-      rgba(255, 255, 255, 0.6) 100%),
+      rgba(255, 255, 255, 0.6) 100%
+    ),
     /* texture effect */
-    repeating-linear-gradient(-45deg,
+      repeating-linear-gradient(
+        -45deg,
+        rgba(255, 255, 255, 0.3) 0px,
+        rgba(255, 255, 255, 0.6) 20px
+      ),
+    repeating-linear-gradient(
+      45deg,
       rgba(255, 255, 255, 0.3) 0px,
       rgba(255, 255, 255, 0.6) 20px
-      ),
-    repeating-linear-gradient(45deg,
-    rgba(255, 255, 255, 0.3) 0px,
-    rgba(255, 255, 255, 0.6) 20px
     ),
     /* rainbow */
-    linear-gradient(65deg,
-      oklch(0.8  0.3 0deg ) 0%,
-      oklch(0.8  0.3 30deg ) calc(100% * calc(30 / 360)),
-      oklch(0.8  0.3 60deg ) calc(100% * calc(60 / 360)),
-      oklch(0.8  0.3 90deg ) calc(100% * calc(90 / 360)),
-      oklch(0.8  0.3 120deg ) calc(100% * calc(120 / 360)),
-      oklch(0.8  0.3 150deg ) calc(100% * calc(150 / 360)),
-      oklch(0.8  0.3 180deg ) calc(100% * calc(180 / 360)),
-      oklch(0.8  0.3 210deg ) calc(100% * calc(210 / 360)),
-      oklch(0.8  0.3 240deg ) calc(100% * calc(240 / 360)),
-      oklch(0.8  0.3 270deg ) calc(100% * calc(270 / 360)),
-      oklch(0.8  0.3 300deg ) calc(100% * calc(300 / 360)),
-      oklch(0.8  0.3 330deg ) calc(100% * calc(330 / 360)),
-      oklch(0.8  0.3 360deg ) 100%);
-
+      linear-gradient(
+        65deg,
+        oklch(0.8 0.3 0deg) 0%,
+        oklch(0.8 0.3 30deg) calc(100% * calc(30 / 360)),
+        oklch(0.8 0.3 60deg) calc(100% * calc(60 / 360)),
+        oklch(0.8 0.3 90deg) calc(100% * calc(90 / 360)),
+        oklch(0.8 0.3 120deg) calc(100% * calc(120 / 360)),
+        oklch(0.8 0.3 150deg) calc(100% * calc(150 / 360)),
+        oklch(0.8 0.3 180deg) calc(100% * calc(180 / 360)),
+        oklch(0.8 0.3 210deg) calc(100% * calc(210 / 360)),
+        oklch(0.8 0.3 240deg) calc(100% * calc(240 / 360)),
+        oklch(0.8 0.3 270deg) calc(100% * calc(270 / 360)),
+        oklch(0.8 0.3 300deg) calc(100% * calc(300 / 360)),
+        oklch(0.8 0.3 330deg) calc(100% * calc(330 / 360)),
+        oklch(0.8 0.3 360deg) 100%
+      );
 }
 
 /*

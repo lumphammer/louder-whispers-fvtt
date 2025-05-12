@@ -1,3 +1,5 @@
+import "./louderWhispers.css";
+
 import {
   customPathKey,
   enhanceMessageKey,
@@ -12,8 +14,6 @@ import {
 } from "./constants";
 import { assertGame } from "./functions";
 import { validateCustomPath } from "./validateCustomPath";
-
-import "./louderWhispers.css";
 
 let customPath = "";
 
