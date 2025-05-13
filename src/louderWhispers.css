@@ -36,13 +36,13 @@
       rgba(255, 255, 255, 0.6) 100%
     ),
     /* chevron */
-    repeating-linear-gradient(
-      var(--angle1),
-      var(--color1),
-      var(--color1) 20px,
-      var(--color2) 20px,
-      var(--color2) 40px
-    ),
+      repeating-linear-gradient(
+        var(--angle1),
+        var(--color1),
+        var(--color1) 20px,
+        var(--color2) 20px,
+        var(--color2) 40px
+      ),
     repeating-linear-gradient(
       var(--angle2),
       var(--color1),
@@ -99,8 +99,3 @@
         oklch(0.8 0.3 360deg) 100%
       );
 }
-
-/*
-rainbow
-https://www.joshwcomeau.com/gradient-generator?colors=ff1818|00ff2b|003bff|ff0000&angle=65&colorMode=hsl&precision=8&easingCurve=0.3793103448275862|0.8204022111563847|0.9913793103448276|0.2600573835701778
-*/
