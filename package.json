@@ -21,7 +21,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.12.1+sha512.f0dda8580f0ee9481c5c79a1d927b9164f2c478e90992ad268bbb2465a736984391d6333d2c327913578b2804af33474ca554ba29c04a8b13060a717675ae3ac",
+  "packageManager": "pnpm@10.12.2",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@lumphammer/investigator-fvtt-types": "^1.13.2",
@@ -29,22 +29,26 @@
     "@swc/plugin-emotion": "^7.0.3",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
-    "@typescript-eslint/parser": "^8.34.0",
+    "@typescript-eslint/eslint-plugin": "^8.35.0",
+    "@typescript-eslint/parser": "^8.35.0",
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^10.1.5",
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin": "link:@@typescript-eslint/eslint-plugin",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-n": "^17.20.0",
+    "eslint-plugin-promise": "^7.2.1",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "eslint-plugin-unused-imports": "^4.1.4",
     "fvtt-types": "github:League-of-Foundry-Developers/foundry-vtt-types#main",
-    "prettier": "^3.5.3",
+    "prettier": "^3.6.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "typescript": "^5.8.3",
     "vite": "6.3.5",
     "vite-plugin-svgr": "^4.3.0",
-    "vitest": "^3.2.3"
+    "vitest": "^3.2.4"
   },
   "pnpm": {
     "overrides": {
