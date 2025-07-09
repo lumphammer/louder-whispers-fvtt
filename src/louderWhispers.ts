@@ -90,7 +90,7 @@ Hooks.on(
         data.sound = override;
       }
       if (showNotif) {
-        ui?.notifications?.info(`Whisper from ${data.author.name}`, {
+        ui?.notifications?.info(`Whisper from ${data.author?.name ?? "???"}`, {
           permanent: showNotifSetting === notifChoices.indexOf(yesPerm),
         });
       }
