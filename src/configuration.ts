@@ -5,7 +5,7 @@ const qualifiedShowWhisperNotificationsKey = `${c.moduleName}.${c.showWhisperNot
 const qualifiedOverrideAudioKey = `${c.moduleName}.${c.overrideAudioKey}`;
 const qualifiedEnhanceMessageKey = `${c.moduleName}.${c.enhanceMessageKey}`;
 
-declare global {
+declare module "fvtt-types/configuration" {
   interface SettingConfig {
     [qualifiedCustomPathKey]: string;
     [qualifiedShowWhisperNotificationsKey]: number;
