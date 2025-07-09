@@ -41,7 +41,7 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "eslint-plugin-unused-imports": "^4.1.4",
-    "fvtt-types": "github:League-of-Foundry-Developers/foundry-vtt-types#main",
+    "fvtt-types": "github:League-of-Foundry-Developers/foundry-vtt-types#7ee6da0705ca890edad30effb4768e4ebe494d22",
     "prettier": "^3.6.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
@@ -52,7 +52,10 @@
   },
   "pnpm": {
     "overrides": {
-      "vite": "$vite"
+      "vite": "$vite",
+      "vitest": "$vitest",
+      "fvtt-types": "$fvtt-types",
+      "@types/node": "22.9.3"
     }
   }
 }
