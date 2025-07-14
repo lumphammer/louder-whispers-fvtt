@@ -21,7 +21,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.12.4",
+  "packageManager": "pnpm@10.13.1",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@lumphammer/investigator-fvtt-types": "^1.13.2",
@@ -48,7 +48,7 @@
     "react-dom": "^19.1.0",
     "svgo": "^4.0.0",
     "typescript": "^5.8.3",
-    "vite": "7.0.3",
+    "vite": "7.0.4",
     "vite-plugin-svgr": "^4.3.0",
     "vitest": "^3.2.4"
   },
@@ -57,7 +57,7 @@
       "vite": "$vite",
       "vitest": "$vitest",
       "fvtt-types": "$fvtt-types",
-      "@types/node": "22.9.3"
+      "@types/node": "22.16.3"
     }
   }
 }
