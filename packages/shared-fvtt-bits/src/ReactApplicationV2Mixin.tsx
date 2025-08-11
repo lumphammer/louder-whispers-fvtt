@@ -6,7 +6,7 @@ import { FoundryAppContext } from "./FoundryAppContext";
 import { Constructor } from "./types";
 
 import ApplicationV2 = foundry.applications.api.ApplicationV2;
-import RenderOptions = foundry.applications.api.ApplicationV2.RenderOptions;
+type RenderOptions = foundry.applications.api.ApplicationV2.RenderOptions;
 
 // so Constructor<Application> is any class which is an Application
 type ApplicationV2Constructor = Constructor<ApplicationV2>;
@@ -14,11 +14,13 @@ type ApplicationV2Constructor = Constructor<ApplicationV2>;
 /**
  * Wrap an existing Foundry Application class in this Mixin to override the
  * normal rendering behaviour and and use React instead.
+ *
+ * See MIXINS.md.
  */
 export function ReactApplicationV2Mixin<TBase extends ApplicationV2Constructor>(
   /**
    * Name to be attached to the created class. This is needed because minified
-   * classes have weird names which can break foundry when thney get used as
+   * classes have weird names which can break foundry when they get used as
    * HTML ids.
    */
   name: string,
@@ -30,7 +32,7 @@ export function ReactApplicationV2Mixin<TBase extends ApplicationV2Constructor>(
    * Render method - should return some JSX.
    */
   render: () => ReactNode,
-) {
+): TBase {
   class Reactified extends Base {
     // PROPERTIES
 
@@ -74,7 +76,7 @@ export function ReactApplicationV2Mixin<TBase extends ApplicationV2Constructor>(
           this.reactRoot.unmount();
           this.reactRoot = undefined;
         }
-        // eslint-disable-next-line @typescript-eslint/no-unused-vars, unused-imports/no-unused-vars
+        // eslint-disable-next-line unused-imports/no-unused-vars
       } catch (e: any) {
         // if it does throw, we don;t want that to reach the console, so we do
         // nothing. This is an async function to that's equivalent to returning
