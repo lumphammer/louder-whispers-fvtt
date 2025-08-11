@@ -8,7 +8,11 @@ export async function validateCustomPath(customPath: string) {
   const errorMessage = `[Louder Whispers] Custom audio file ${customPathSetting} not found (should be relative to your Data folder.)`;
   if (customPathSetting) {
     try {
-      const result = await FilePicker.browse("data", customPathSetting);
+      const result =
+        await foundry.applications.apps.FilePicker.implementation.browse(
+          "data",
+          customPathSetting,
+        );
       if (result.files.length >= 1) {
         if (customPath !== customPathSetting) {
           customPath = customPathSetting;
