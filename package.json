@@ -42,7 +42,7 @@
     "eslint-plugin-react-hooks": "^6.1.1",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "eslint-plugin-unused-imports": "^4.2.0",
-    "fvtt-types": "github:League-of-Foundry-Developers/foundry-vtt-types#15edbff5f617eaac4913940d8bcc8a4c804fe8b5",
+    "fvtt-types": "github:League-of-Foundry-Developers/foundry-vtt-types#f88619766b70cd764aaa1b49c8ef169b1aeab3af",
     "prettier": "^3.6.2",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
