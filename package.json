@@ -57,7 +57,7 @@
       "vite": "$vite",
       "vitest": "$vitest",
       "fvtt-types": "$fvtt-types",
-      "@types/node": "22.19.0"
+      "@types/node": "24.10.0"
     }
   }
 }
