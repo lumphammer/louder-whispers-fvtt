@@ -36,7 +36,7 @@
       rgba(255, 255, 255, 0.6) 100%
     ),
     /* chevron */
-      repeating-linear-gradient(
+    repeating-linear-gradient(
         var(--angle1),
         var(--color1),
         var(--color1) 20px,
@@ -71,7 +71,7 @@
       rgba(255, 255, 255, 0.6) 100%
     ),
     /* texture effect */
-      repeating-linear-gradient(
+    repeating-linear-gradient(
         -45deg,
         rgba(255, 255, 255, 0.3) 0px,
         rgba(255, 255, 255, 0.6) 20px
@@ -82,7 +82,7 @@
       rgba(255, 255, 255, 0.6) 20px
     ),
     /* rainbow */
-      linear-gradient(
+    linear-gradient(
         65deg,
         oklch(0.8 0.3 0deg) 0%,
         oklch(0.8 0.3 30deg) calc(100% * calc(30 / 360)),
