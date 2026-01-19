@@ -30,34 +30,34 @@
     "@types/babel__core": "^7.20.5",
     "@types/react": "^19.2.8",
     "@types/react-dom": "^19.2.3",
-    "@typescript-eslint/eslint-plugin": "^8.52.0",
-    "@typescript-eslint/parser": "^8.52.0",
+    "@typescript-eslint/eslint-plugin": "^8.53.0",
+    "@typescript-eslint/parser": "^8.53.0",
     "eslint": "^9.39.2",
     "eslint-config-prettier": "^10.1.8",
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin": "link:@@typescript-eslint/eslint-plugin",
     "eslint-plugin-import": "^2.32.0",
-    "eslint-plugin-n": "^17.23.1",
+    "eslint-plugin-n": "^17.23.2",
     "eslint-plugin-promise": "^7.2.1",
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "eslint-plugin-unused-imports": "^4.3.0",
     "fvtt-types": "github:League-of-Foundry-Developers/foundry-vtt-types#d7751f280498c9d749c5bd821628ab2be9acefbc",
-    "prettier": "^3.7.4",
+    "prettier": "^3.8.0",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
     "svgo": "^4.0.0",
     "typescript": "^5.9.3",
     "vite": "7.3.1",
     "vite-plugin-svgr": "^4.5.0",
-    "vitest": "^4.0.16"
+    "vitest": "^4.0.17"
   },
   "pnpm": {
     "overrides": {
       "vite": "$vite",
       "vitest": "$vitest",
       "fvtt-types": "$fvtt-types",
-      "@types/node": "24.10.7"
+      "@types/node": "24.10.9"
     }
   }
 }
