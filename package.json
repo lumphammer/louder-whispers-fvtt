@@ -28,7 +28,7 @@
     "@lumphammer/shared-fvtt-bits": "workspace:^",
     "@swc/plugin-emotion": "^7.0.3",
     "@types/babel__core": "^7.20.5",
-    "@types/react": "^19.2.10",
+    "@types/react": "^19.2.13",
     "@types/react-dom": "^19.2.3",
     "@typescript-eslint/eslint-plugin": "^8.54.0",
     "@typescript-eslint/parser": "^8.54.0",
@@ -57,7 +57,7 @@
       "vite": "$vite",
       "vitest": "$vitest",
       "fvtt-types": "$fvtt-types",
-      "@types/node": "24.10.9"
+      "@types/node": "24.10.12"
     }
   }
 }
