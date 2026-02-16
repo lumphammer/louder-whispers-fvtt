@@ -28,20 +28,20 @@
     "@lumphammer/shared-fvtt-bits": "workspace:^",
     "@swc/plugin-emotion": "^7.0.3",
     "@types/babel__core": "^7.20.5",
-    "@types/react": "^19.2.13",
+    "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "@typescript-eslint/eslint-plugin": "^8.54.0",
-    "@typescript-eslint/parser": "^8.54.0",
+    "@typescript-eslint/eslint-plugin": "^8.55.0",
+    "@typescript-eslint/parser": "^8.55.0",
     "eslint": "^9.39.2",
     "eslint-config-prettier": "^10.1.8",
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin": "link:@@typescript-eslint/eslint-plugin",
     "eslint-plugin-import": "^2.32.0",
-    "eslint-plugin-n": "^17.23.2",
+    "eslint-plugin-n": "^17.24.0",
     "eslint-plugin-promise": "^7.2.1",
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-simple-import-sort": "^12.1.1",
-    "eslint-plugin-unused-imports": "^4.3.0",
+    "eslint-plugin-unused-imports": "^4.4.1",
     "fvtt-types": "github:League-of-Foundry-Developers/foundry-vtt-types#d7751f280498c9d749c5bd821628ab2be9acefbc",
     "prettier": "^3.8.1",
     "react": "^19.2.4",
@@ -57,7 +57,7 @@
       "vite": "$vite",
       "vitest": "$vitest",
       "fvtt-types": "$fvtt-types",
-      "@types/node": "24.10.12"
+      "@types/node": "24.10.13"
     }
   }
 }
