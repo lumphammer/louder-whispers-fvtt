@@ -32,7 +32,7 @@
     "@types/react-dom": "^19.2.3",
     "@typescript-eslint/eslint-plugin": "^8.56.1",
     "@typescript-eslint/parser": "^8.56.1",
-    "eslint": "^9.39.3",
+    "eslint": "^9.39.4",
     "eslint-config-prettier": "^10.1.8",
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin": "link:@@typescript-eslint/eslint-plugin",
@@ -46,7 +46,7 @@
     "prettier": "^3.8.1",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
-    "svgo": "^4.0.0",
+    "svgo": "^4.0.1",
     "typescript": "^5.9.3",
     "vite": "7.3.1",
     "vite-plugin-svgr": "^4.5.0",
@@ -57,7 +57,7 @@
       "vite": "$vite",
       "vitest": "$vitest",
       "fvtt-types": "$fvtt-types",
-      "@types/node": "24.11.0"
+      "@types/node": "24.12.0"
     }
   }
 }
