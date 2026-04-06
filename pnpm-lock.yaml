@@ -5,10 +5,10 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
-  vite: 8.0.1
-  vitest: ^4.1.0
+  vite: 8.0.3
+  vitest: ^4.1.2
   fvtt-types: github:League-of-Foundry-Developers/foundry-vtt-types#911d2286c6bcf639a200160bd3de23b26a0460ff
-  '@types/node': 24.12.0
+  '@types/node': 24.12.2
 
 importers:
 
@@ -36,11 +36,11 @@ importers:
         specifier: ^19.2.3
         version: 19.2.3(@types/react@19.2.14)
       '@typescript-eslint/eslint-plugin':
-        specifier: ^8.57.1
-        version: 8.57.1(@typescript-eslint/parser@8.57.1(eslint@9.39.4)(typescript@5.9.3))(eslint@9.39.4)(typescript@5.9.3)
+        specifier: ^8.58.0
+        version: 8.58.0(@typescript-eslint/parser@8.58.0(eslint@9.39.4)(typescript@5.9.3))(eslint@9.39.4)(typescript@5.9.3)
       '@typescript-eslint/parser':
-        specifier: ^8.57.1
-        version: 8.57.1(eslint@9.39.4)(typescript@5.9.3)
+        specifier: ^8.58.0
+        version: 8.58.0(eslint@9.39.4)(typescript@5.9.3)
       eslint:
         specifier: ^9.39.4
         version: 9.39.4
@@ -49,13 +49,13 @@ importers:
         version: 10.1.8(eslint@9.39.4)
       eslint-config-standard:
         specifier: ^17.1.0
-        version: 17.1.0(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.57.1(eslint@9.39.4)(typescript@5.9.3))(eslint@9.39.4))(eslint-plugin-n@17.24.0(eslint@9.39.4)(typescript@5.9.3))(eslint-plugin-promise@7.2.1(eslint@9.39.4))(eslint@9.39.4)
+        version: 17.1.0(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.58.0(eslint@9.39.4)(typescript@5.9.3))(eslint@9.39.4))(eslint-plugin-n@17.24.0(eslint@9.39.4)(typescript@5.9.3))(eslint-plugin-promise@7.2.1(eslint@9.39.4))(eslint@9.39.4)
       eslint-plugin:
         specifier: link:@@typescript-eslint/eslint-plugin
         version: link:@@typescript-eslint/eslint-plugin
       eslint-plugin-import:
         specifier: ^2.32.0
-        version: 2.32.0(@typescript-eslint/parser@8.57.1(eslint@9.39.4)(typescript@5.9.3))(eslint@9.39.4)
+        version: 2.32.0(@typescript-eslint/parser@8.58.0(eslint@9.39.4)(typescript@5.9.3))(eslint@9.39.4)
       eslint-plugin-n:
         specifier: ^17.24.0
         version: 17.24.0(eslint@9.39.4)(typescript@5.9.3)
@@ -70,10 +70,10 @@ importers:
         version: 12.1.1(eslint@9.39.4)
       eslint-plugin-unused-imports:
         specifier: ^4.4.1
-        version: 4.4.1(@typescript-eslint/eslint-plugin@8.57.1(@typescript-eslint/parser@8.57.1(eslint@9.39.4)(typescript@5.9.3))(eslint@9.39.4)(typescript@5.9.3))(eslint@9.39.4)
+        version: 4.4.1(@typescript-eslint/eslint-plugin@8.58.0(@typescript-eslint/parser@8.58.0(eslint@9.39.4)(typescript@5.9.3))(eslint@9.39.4)(typescript@5.9.3))(eslint@9.39.4)
       fvtt-types:
         specifier: github:League-of-Foundry-Developers/foundry-vtt-types#911d2286c6bcf639a200160bd3de23b26a0460ff
-        version: '@league-of-foundry-developers/foundry-vtt-types@https://codeload.github.com/League-of-Foundry-Developers/foundry-vtt-types/tar.gz/911d2286c6bcf639a200160bd3de23b26a0460ff(6c574db58d500d3ecfd5fe5f98038db3)'
+        version: '@league-of-foundry-developers/foundry-vtt-types@https://codeload.github.com/League-of-Foundry-Developers/foundry-vtt-types/tar.gz/911d2286c6bcf639a200160bd3de23b26a0460ff(@pixi/constants@7.4.3)(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))(@pixi/graphics@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))(@pixi/sprite@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))))(@pixi/math@7.4.3)(@pixi/sprite@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3)))(@pixi/ticker@7.4.3)(typescript@5.9.3)'
       prettier:
         specifier: ^3.8.1
         version: 3.8.1
@@ -90,14 +90,14 @@ importers:
         specifier: ^5.9.3
         version: 5.9.3
       vite:
-        specifier: 8.0.1
-        version: 8.0.1(@types/node@24.12.0)(esbuild@0.27.2)(tsx@4.20.6)
+        specifier: 8.0.3
+        version: 8.0.3(@types/node@24.12.2)(esbuild@0.27.2)(tsx@4.20.6)
       vite-plugin-svgr:
         specifier: ^4.5.0
-        version: 4.5.0(rollup@4.46.2)(typescript@5.9.3)(vite@8.0.1(@types/node@24.12.0)(esbuild@0.27.2)(tsx@4.20.6))
+        version: 4.5.0(rollup@4.46.2)(typescript@5.9.3)(vite@8.0.3(@types/node@24.12.2)(esbuild@0.27.2)(tsx@4.20.6))
       vitest:
-        specifier: ^4.1.0
-        version: 4.1.0(@types/node@24.12.0)(happy-dom@20.0.8)(vite@8.0.1(@types/node@24.12.0)(esbuild@0.27.2)(tsx@4.20.6))
+        specifier: ^4.1.2
+        version: 4.1.2(@types/node@24.12.2)(happy-dom@20.0.8)(vite@8.0.3(@types/node@24.12.2)(esbuild@0.27.2)(tsx@4.20.6))
 
   packages/shared-fvtt-bits:
     dependencies:
@@ -139,7 +139,7 @@ importers:
         version: 11.3.2
       fvtt-types:
         specifier: github:League-of-Foundry-Developers/foundry-vtt-types#911d2286c6bcf639a200160bd3de23b26a0460ff
-        version: '@league-of-foundry-developers/foundry-vtt-types@https://codeload.github.com/League-of-Foundry-Developers/foundry-vtt-types/tar.gz/911d2286c6bcf639a200160bd3de23b26a0460ff(@pixi/assets@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))(@pixi/constants@7.4.3)(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))(@pixi/graphics@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))(@pixi/sprite@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))))(@pixi/math@7.4.3)(@pixi/sprite@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3)))(@pixi/ticker@7.4.3)(typescript@5.9.3)'
+        version: '@league-of-foundry-developers/foundry-vtt-types@https://codeload.github.com/League-of-Foundry-Developers/foundry-vtt-types/tar.gz/911d2286c6bcf639a200160bd3de23b26a0460ff(6c574db58d500d3ecfd5fe5f98038db3)'
       globals:
         specifier: ^16.4.0
         version: 16.4.0
@@ -176,7 +176,7 @@ importers:
         version: 19.2.2(@types/react@19.2.2)
       '@vitejs/plugin-react-swc':
         specifier: ^3.7.2
-        version: 3.7.2(vite@8.0.1(@types/node@24.12.0)(esbuild@0.27.2)(tsx@4.20.6))
+        version: 3.7.2(vite@8.0.3(@types/node@24.12.2)(esbuild@0.27.2)(tsx@4.20.6))
       eslint:
         specifier: ^9.38.0
         version: 9.38.0
@@ -194,7 +194,7 @@ importers:
         version: 12.1.1(eslint@9.38.0)
       eslint-plugin-unused-imports:
         specifier: ^4.3.0
-        version: 4.3.0(@typescript-eslint/eslint-plugin@8.57.1(@typescript-eslint/parser@8.46.2(eslint@9.38.0)(typescript@5.9.3))(eslint@9.38.0)(typescript@5.9.3))(eslint@9.38.0)
+        version: 4.3.0(@typescript-eslint/eslint-plugin@8.58.0(@typescript-eslint/parser@8.46.2(eslint@9.38.0)(typescript@5.9.3))(eslint@9.38.0)(typescript@5.9.3))(eslint@9.38.0)
       prettier:
         specifier: ^3.6.2
         version: 3.6.2
@@ -206,19 +206,19 @@ importers:
         version: 19.2.0(react@19.2.0)
       rollup-plugin-visualizer:
         specifier: ^6.0.5
-        version: 6.0.5(rolldown@1.0.0-rc.10)(rollup@4.46.2)
+        version: 6.0.5(rolldown@1.0.0-rc.12)(rollup@4.46.2)
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
       vite:
-        specifier: 8.0.1
-        version: 8.0.1(@types/node@24.12.0)(esbuild@0.27.2)(tsx@4.20.6)
+        specifier: 8.0.3
+        version: 8.0.3(@types/node@24.12.2)(esbuild@0.27.2)(tsx@4.20.6)
       vite-plugin-svgr:
         specifier: ^4.5.0
-        version: 4.5.0(rollup@4.46.2)(typescript@5.9.3)(vite@8.0.1(@types/node@24.12.0)(esbuild@0.27.2)(tsx@4.20.6))
+        version: 4.5.0(rollup@4.46.2)(typescript@5.9.3)(vite@8.0.3(@types/node@24.12.2)(esbuild@0.27.2)(tsx@4.20.6))
       vitest:
-        specifier: ^4.1.0
-        version: 4.1.0(@types/node@24.12.0)(happy-dom@20.0.8)(vite@8.0.1(@types/node@24.12.0)(esbuild@0.27.2)(tsx@4.20.6))
+        specifier: ^4.1.2
+        version: 4.1.2(@types/node@24.12.2)(happy-dom@20.0.8)(vite@8.0.3(@types/node@24.12.2)(esbuild@0.27.2)(tsx@4.20.6))
 
 packages:
 
@@ -870,8 +870,8 @@ packages:
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
 
-  '@oxc-project/types@0.120.0':
-    resolution: {integrity: sha512-k1YNu55DuvAip/MGE1FTsIuU3FUCn6v/ujG9V7Nq5Df/kX2CWb13hhwD0lmJGMGqE+bE1MXvv9SZVnMzEXlWcg==}
+  '@oxc-project/types@0.122.0':
+    resolution: {integrity: sha512-oLAl5kBpV4w69UtFZ9xqcmTi+GENWOcPF7FCrczTiBbmC0ibXxCwyvZGbO39rCVEuLGAZM84DH0pUIyyv/YJzA==}
 
   '@peggyjs/from-mem@1.3.5':
     resolution: {integrity: sha512-oRyzXE7nirAn+5yYjCdWQHg3EG2XXcYRoYNOK8Quqnmm+9FyK/2YWVunwudlYl++M3xY+gIAdf0vAYS+p0nKfQ==}
@@ -887,12 +887,14 @@ packages:
 
   '@pixi/app@7.4.3':
     resolution: {integrity: sha512-opyWMuO0Ir8pf1DYUR++wAA6ZfNU+nIX2z95R2OD172HbcdhB4/HD7leLIIAny/LciEdMqlWEBhXK7N93YWbdg==}
+    version: 7.4.3
     peerDependencies:
       '@pixi/core': 7.4.3
       '@pixi/display': 7.4.3
 
   '@pixi/assets@7.4.3':
     resolution: {integrity: sha512-StvjiJBSp/j9hHkGu8AFHNvwYUazXq64WhyhytztyDMRkg/l/cL7EcttY5T0qZNWlIpccdr60LUKrWDOuMpkiw==}
+    version: 7.4.3
     peerDependencies:
       '@pixi/core': 7.4.3
 
@@ -929,7 +931,6 @@ packages:
 
   '@pixi/display@7.4.3':
     resolution: {integrity: sha512-b5m2dAaoNAVdxz1oDaxl3XZ059NEOcNtGkxTOZ4EYCw/jcp9sZXkgSROHRzsGn4k+NugH7+9MP4Id2Z0kkdUhw==}
-    version: 7.4.3
     peerDependencies:
       '@pixi/core': 7.4.3
 
@@ -945,42 +946,48 @@ packages:
 
   '@pixi/extract@7.4.3':
     resolution: {integrity: sha512-HNvGNrEVaeVsbcnIO1MsHpjZbTwo9nIlaOEBzDGcL6JWwzuB1RnzUke7WUCndCUt91sGUdvPnvgCvy9/NNFg3w==}
+    version: 7.4.3
     peerDependencies:
       '@pixi/core': 7.4.3
 
   '@pixi/filter-alpha@7.4.3':
     resolution: {integrity: sha512-YFdUB1I53USQb+9TEhS849dV2KZhbnNGIoBbOSThUJfXQc4pDguIFWMagVToAQYgmZ4C4AtYfVjaSEELrMcCdA==}
+    version: 7.4.3
     peerDependencies:
       '@pixi/core': 7.4.3
 
   '@pixi/filter-blur@7.4.3':
     resolution: {integrity: sha512-ZFzS9L/whdRbs5A/EUgF3yQaBcxNarmbuwaMgrfnpQ84mRczkGByqDLGToadiufyals07ufTrXBGRle9lbtEDA==}
+    version: 7.4.3
     peerDependencies:
       '@pixi/core': 7.4.3
 
   '@pixi/filter-color-matrix@7.4.3':
     resolution: {integrity: sha512-TNu0h20SrzjUWIb5v19dAp1vPpqtG0w2XF9kIHN91bMNaf3R1jzhpWG6TtaVO9eo1IolWcEJLw38jIohyC+KNw==}
+    version: 7.4.3
     peerDependencies:
       '@pixi/core': 7.4.3
 
   '@pixi/filter-displacement@7.4.3':
     resolution: {integrity: sha512-ax+cFA2mEnKgqf9F8qInpv09GNWzjwnASLETpwPXzWBtlAlNCeHV2tCv3+SlMdEKUkwG9sA7AmjjjC2JBUyt+Q==}
+    version: 7.4.3
     peerDependencies:
       '@pixi/core': 7.4.3
 
   '@pixi/filter-fxaa@7.4.3':
     resolution: {integrity: sha512-y9jhho5cCflhEsPtNqqsd+XJHsb+/ysht4rG/VHQ8Z6pScHYpbgiEpowryGq8uSMQQwx6zKNS2DPiXdiOHPZsg==}
+    version: 7.4.3
     peerDependencies:
       '@pixi/core': 7.4.3
 
   '@pixi/filter-noise@7.4.3':
     resolution: {integrity: sha512-rwgSO3BKe1jW/P5CaOcfLKjfpl674aBEo/igi/3QLxA3ORhILNqWRsKkOwP8xF/ejI5NE4rMEkdv0LScbdGFhA==}
+    version: 7.4.3
     peerDependencies:
       '@pixi/core': 7.4.3
 
   '@pixi/graphics-smooth@1.1.1':
     resolution: {integrity: sha512-9xIFWZhHGEb6KCnyWL6TVPYG/QkF0YDM/yDU5EvjTQbaj/1cITrXtI5P3tBkB5H0DQi+8J8/QS38MjfqNEJAYQ==}
-    version: 1.1.1
     peerDependencies:
       '@pixi/core': ^7.2.0
       '@pixi/display': ^7.2.0
@@ -988,7 +995,6 @@ packages:
 
   '@pixi/graphics@7.4.3':
     resolution: {integrity: sha512-wWLivD8/URb8A7X4TqCZGG39C91IE+aOuWY/z9NCz5Z6WvA/VWnsc5fLTlO+ggjGHgKF0cSucCXZfUe1wm0AOQ==}
-    version: 7.4.3
     peerDependencies:
       '@pixi/core': 7.4.3
       '@pixi/display': 7.4.3
@@ -1006,12 +1012,14 @@ packages:
 
   '@pixi/mesh@7.4.3':
     resolution: {integrity: sha512-CikqFPtKvU3Zj986/MSoC8X39CWv5CEpiEW/tYp47p4tgQNDSkNWYnDiNYgb+4VX6pNsBrgX4DALLdTR17SlSA==}
+    version: 7.4.3
     peerDependencies:
       '@pixi/core': 7.4.3
       '@pixi/display': 7.4.3
 
   '@pixi/mixin-cache-as-bitmap@7.4.3':
     resolution: {integrity: sha512-NgvDdgSgd2tfcTSc+SWF12JJjVVz5ZrkSlhX0idSp/LSako82AiFJlD2xqH9GUsEcA6sqBBlnu7nrGkPTHQdhA==}
+    version: 7.4.3
     peerDependencies:
       '@pixi/core': 7.4.3
       '@pixi/display': 7.4.3
@@ -1019,17 +1027,20 @@ packages:
 
   '@pixi/mixin-get-child-by-name@7.4.3':
     resolution: {integrity: sha512-HLhDxHwafQT+CxbqQx9w9ivJIyAOg9JJ/6m4fNymVuDWeuMGcxDxBD7DukdUYIieT+RD/RlxdPEmq8YoromlFA==}
+    version: 7.4.3
     peerDependencies:
       '@pixi/display': 7.4.3
 
   '@pixi/mixin-get-global-position@7.4.3':
     resolution: {integrity: sha512-k09kvkS379EypCIWgXMY7uiXtWk1BsaJyTYlV16Co0AsmNPdFd+wUozMx1xV6rxcGiWXsxr/1k9fbETuYkcXCQ==}
+    version: 7.4.3
     peerDependencies:
       '@pixi/core': 7.4.3
       '@pixi/display': 7.4.3
 
   '@pixi/particle-container@7.4.3':
     resolution: {integrity: sha512-0DfJF5C0XTfuI2FsLYvMKCOtqWjXWGOWfA6m4l0W/Ke/qw5zKIOEhgjPLw4qNRtOhmEfkVKJUGp66Ap/ya2YzA==}
+    version: 7.4.3
     peerDependencies:
       '@pixi/core': 7.4.3
       '@pixi/display': 7.4.3
@@ -1048,7 +1059,6 @@ packages:
 
   '@pixi/prepare@7.4.3':
     resolution: {integrity: sha512-OjJHGKXPzwP5OLKxBnTBnKMOktHynLvO0TQPqTYgNtmGQzY109mypCqM4M+s/V+uYmBo/T+sXvBahj98q/f1tA==}
-    version: 7.4.3
     peerDependencies:
       '@pixi/core': 7.4.3
       '@pixi/display': 7.4.3
@@ -1063,12 +1073,14 @@ packages:
 
   '@pixi/sprite-animated@7.4.3':
     resolution: {integrity: sha512-mw5YIec8KfO1Jv9qrDNvGoD7Dlmcgww5YlMtd+ARi7Zzo+6ziNw899LXtoaKX1+3BXdZbYNyJAx3C5r30NtwXA==}
+    version: 7.4.3
     peerDependencies:
       '@pixi/core': 7.4.3
       '@pixi/sprite': 7.4.3
 
   '@pixi/sprite-tiling@7.4.3':
     resolution: {integrity: sha512-kUa9cEcMsGXSIZoXA7LhW4oo0eWa30w0KYd7mZ0bqalBMfOcvsGZMN701Lc5lpE8URw+8yu5bnyGLbrxhWBTuw==}
+    version: 7.4.3
     peerDependencies:
       '@pixi/core': 7.4.3
       '@pixi/display': 7.4.3
@@ -1076,7 +1088,6 @@ packages:
 
   '@pixi/sprite@7.4.3':
     resolution: {integrity: sha512-iNBrpOFF9nXDT6m2jcyYy6l/sRzklLDDck1eFHprHZwvNquY2nzRfh+RGBCecxhBcijiLJ3fsZN33fP0LDXkvw==}
-    version: 7.4.3
     peerDependencies:
       '@pixi/core': 7.4.3
       '@pixi/display': 7.4.3
@@ -1090,7 +1101,6 @@ packages:
 
   '@pixi/text-bitmap@7.4.3':
     resolution: {integrity: sha512-TnBocJm7f5nMAYwYcsojc62uCrOYauAGH26o3pNrlqmHDRDQ7FzPOGvkYZGYFREbUycloLSRlYpSy0FB9ZdV4Q==}
-    version: 7.4.3
     peerDependencies:
       '@pixi/assets': 7.4.3
       '@pixi/core': 7.4.3
@@ -1132,97 +1142,97 @@ packages:
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
     engines: {node: '>=14'}
 
-  '@rolldown/binding-android-arm64@1.0.0-rc.10':
-    resolution: {integrity: sha512-jOHxwXhxmFKuXztiu1ORieJeTbx5vrTkcOkkkn2d35726+iwhrY1w/+nYY/AGgF12thg33qC3R1LMBF5tHTZHg==}
+  '@rolldown/binding-android-arm64@1.0.0-rc.12':
+    resolution: {integrity: sha512-pv1y2Fv0JybcykuiiD3qBOBdz6RteYojRFY1d+b95WVuzx211CRh+ytI/+9iVyWQ6koTh5dawe4S/yRfOFjgaA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [android]
 
-  '@rolldown/binding-darwin-arm64@1.0.0-rc.10':
-    resolution: {integrity: sha512-gED05Teg/vtTZbIJBc4VNMAxAFDUPkuO/rAIyyxZjTj1a1/s6z5TII/5yMGZ0uLRCifEtwUQn8OlYzuYc0m70w==}
+  '@rolldown/binding-darwin-arm64@1.0.0-rc.12':
+    resolution: {integrity: sha512-cFYr6zTG/3PXXF3pUO+umXxt1wkRK/0AYT8lDwuqvRC+LuKYWSAQAQZjCWDQpAH172ZV6ieYrNnFzVVcnSflAg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [darwin]
 
-  '@rolldown/binding-darwin-x64@1.0.0-rc.10':
-    resolution: {integrity: sha512-rI15NcM1mA48lqrIxVkHfAqcyFLcQwyXWThy+BQ5+mkKKPvSO26ir+ZDp36AgYoYVkqvMcdS8zOE6SeBsR9e8A==}
+  '@rolldown/binding-darwin-x64@1.0.0-rc.12':
+    resolution: {integrity: sha512-ZCsYknnHzeXYps0lGBz8JrF37GpE9bFVefrlmDrAQhOEi4IOIlcoU1+FwHEtyXGx2VkYAvhu7dyBf75EJQffBw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [darwin]
 
-  '@rolldown/binding-freebsd-x64@1.0.0-rc.10':
-    resolution: {integrity: sha512-XZRXHdTa+4ME1MuDVp021+doQ+z6Ei4CCFmNc5/sKbqb8YmkiJdj8QKlV3rCI0AJtAeSB5n0WGPuJWNL9p/L2w==}
+  '@rolldown/binding-freebsd-x64@1.0.0-rc.12':
+    resolution: {integrity: sha512-dMLeprcVsyJsKolRXyoTH3NL6qtsT0Y2xeuEA8WQJquWFXkEC4bcu1rLZZSnZRMtAqwtrF/Ib9Ddtpa/Gkge9Q==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [freebsd]
 
-  '@rolldown/binding-linux-arm-gnueabihf@1.0.0-rc.10':
-    resolution: {integrity: sha512-R0SQMRluISSLzFE20sPWYHVmJdDQnRyc/FzSCN72BqQmh2SOZUFG+N3/vBZpR4C6WpEUVYJLrYUXaj43sJsNLA==}
+  '@rolldown/binding-linux-arm-gnueabihf@1.0.0-rc.12':
+    resolution: {integrity: sha512-YqWjAgGC/9M1lz3GR1r1rP79nMgo3mQiiA+Hfo+pvKFK1fAJ1bCi0ZQVh8noOqNacuY1qIcfyVfP6HoyBRZ85Q==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm]
     os: [linux]
 
-  '@rolldown/binding-linux-arm64-gnu@1.0.0-rc.10':
-    resolution: {integrity: sha512-Y1reMrV/o+cwpduYhJuOE3OMKx32RMYCidf14y+HssARRmhDuWXJ4yVguDg2R/8SyyGNo+auzz64LnPK9Hq6jg==}
+  '@rolldown/binding-linux-arm64-gnu@1.0.0-rc.12':
+    resolution: {integrity: sha512-/I5AS4cIroLpslsmzXfwbe5OmWvSsrFuEw3mwvbQ1kDxJ822hFHIx+vsN/TAzNVyepI/j/GSzrtCIwQPeKCLIg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [linux]
 
-  '@rolldown/binding-linux-arm64-musl@1.0.0-rc.10':
-    resolution: {integrity: sha512-vELN+HNb2IzuzSBUOD4NHmP9yrGwl1DVM29wlQvx1OLSclL0NgVWnVDKl/8tEks79EFek/kebQKnNJkIAA4W2g==}
+  '@rolldown/binding-linux-arm64-musl@1.0.0-rc.12':
+    resolution: {integrity: sha512-V6/wZztnBqlx5hJQqNWwFdxIKN0m38p8Jas+VoSfgH54HSj9tKTt1dZvG6JRHcjh6D7TvrJPWFGaY9UBVOaWPw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [linux]
 
-  '@rolldown/binding-linux-ppc64-gnu@1.0.0-rc.10':
-    resolution: {integrity: sha512-ZqrufYTgzxbHwpqOjzSsb0UV/aV2TFIY5rP8HdsiPTv/CuAgCRjM6s9cYFwQ4CNH+hf9Y4erHW1GjZuZ7WoI7w==}
+  '@rolldown/binding-linux-ppc64-gnu@1.0.0-rc.12':
+    resolution: {integrity: sha512-AP3E9BpcUYliZCxa3w5Kwj9OtEVDYK6sVoUzy4vTOJsjPOgdaJZKFmN4oOlX0Wp0RPV2ETfmIra9x1xuayFB7g==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [ppc64]
     os: [linux]
 
-  '@rolldown/binding-linux-s390x-gnu@1.0.0-rc.10':
-    resolution: {integrity: sha512-gSlmVS1FZJSRicA6IyjoRoKAFK7IIHBs7xJuHRSmjImqk3mPPWbR7RhbnfH2G6bcmMEllCt2vQ/7u9e6bBnByg==}
+  '@rolldown/binding-linux-s390x-gnu@1.0.0-rc.12':
+    resolution: {integrity: sha512-nWwpvUSPkoFmZo0kQazZYOrT7J5DGOJ/+QHHzjvNlooDZED8oH82Yg67HvehPPLAg5fUff7TfWFHQS8IV1n3og==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [s390x]
     os: [linux]
 
-  '@rolldown/binding-linux-x64-gnu@1.0.0-rc.10':
-    resolution: {integrity: sha512-eOCKUpluKgfObT2pHjztnaWEIbUabWzk3qPZ5PuacuPmr4+JtQG4k2vGTY0H15edaTnicgU428XW/IH6AimcQw==}
+  '@rolldown/binding-linux-x64-gnu@1.0.0-rc.12':
+    resolution: {integrity: sha512-RNrafz5bcwRy+O9e6P8Z/OCAJW/A+qtBczIqVYwTs14pf4iV1/+eKEjdOUta93q2TsT/FI0XYDP3TCky38LMAg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [linux]
 
-  '@rolldown/binding-linux-x64-musl@1.0.0-rc.10':
-    resolution: {integrity: sha512-Xdf2jQbfQowJnLcgYfD/m0Uu0Qj5OdxKallD78/IPPfzaiaI4KRAwZzHcKQ4ig1gtg1SuzC7jovNiM2TzQsBXA==}
+  '@rolldown/binding-linux-x64-musl@1.0.0-rc.12':
+    resolution: {integrity: sha512-Jpw/0iwoKWx3LJ2rc1yjFrj+T7iHZn2JDg1Yny1ma0luviFS4mhAIcd1LFNxK3EYu3DHWCps0ydXQ5i/rrJ2ig==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [linux]
 
-  '@rolldown/binding-openharmony-arm64@1.0.0-rc.10':
-    resolution: {integrity: sha512-o1hYe8hLi1EY6jgPFyxQgQ1wcycX+qz8eEbVmot2hFkgUzPxy9+kF0u0NIQBeDq+Mko47AkaFFaChcvZa9UX9Q==}
+  '@rolldown/binding-openharmony-arm64@1.0.0-rc.12':
+    resolution: {integrity: sha512-vRugONE4yMfVn0+7lUKdKvN4D5YusEiPilaoO2sgUWpCvrncvWgPMzK00ZFFJuiPgLwgFNP5eSiUlv2tfc+lpA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [openharmony]
 
-  '@rolldown/binding-wasm32-wasi@1.0.0-rc.10':
-    resolution: {integrity: sha512-Ugv9o7qYJudqQO5Y5y2N2SOo6S4WiqiNOpuQyoPInnhVzCY+wi/GHltcLHypG9DEUYMB0iTB/huJrpadiAcNcA==}
+  '@rolldown/binding-wasm32-wasi@1.0.0-rc.12':
+    resolution: {integrity: sha512-ykGiLr/6kkiHc0XnBfmFJuCjr5ZYKKofkx+chJWDjitX+KsJuAmrzWhwyOMSHzPhzOHOy7u9HlFoa5MoAOJ/Zg==}
     engines: {node: '>=14.0.0'}
     cpu: [wasm32]
 
-  '@rolldown/binding-win32-arm64-msvc@1.0.0-rc.10':
-    resolution: {integrity: sha512-7UODQb4fQUNT/vmgDZBl3XOBAIOutP5R3O/rkxg0aLfEGQ4opbCgU5vOw/scPe4xOqBwL9fw7/RP1vAMZ6QlAQ==}
+  '@rolldown/binding-win32-arm64-msvc@1.0.0-rc.12':
+    resolution: {integrity: sha512-5eOND4duWkwx1AzCxadcOrNeighiLwMInEADT0YM7xeEOOFcovWZCq8dadXgcRHSf3Ulh1kFo/qvzoFiCLOL1Q==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [win32]
 
-  '@rolldown/binding-win32-x64-msvc@1.0.0-rc.10':
-    resolution: {integrity: sha512-PYxKHMVHOb5NJuDL53vBUl1VwUjymDcYI6rzpIni0C9+9mTiJedvUxSk7/RPp7OOAm3v+EjgMu9bIy3N6b408w==}
+  '@rolldown/binding-win32-x64-msvc@1.0.0-rc.12':
+    resolution: {integrity: sha512-PyqoipaswDLAZtot351MLhrlrh6lcZPo2LSYE+VDxbVk24LVKAGOuE4hb8xZQmrPAuEtTZW8E6D2zc5EUZX4Lw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [win32]
 
-  '@rolldown/pluginutils@1.0.0-rc.10':
-    resolution: {integrity: sha512-UkVDEFk1w3mveXeKgaTuYfKWtPbvgck1dT8TUG3bnccrH0XtLTuAyfCoks4Q/M5ZGToSVJTIQYCzy2g/atAOeg==}
+  '@rolldown/pluginutils@1.0.0-rc.12':
+    resolution: {integrity: sha512-HHMwmarRKvoFsJorqYlFeFRzXZqCt2ETQlEDOb9aqssrnVBB1/+xgTGtuTrIk5vzLNX1MjMtTf7W9z3tsSbrxw==}
 
   '@rollup/pluginutils@5.2.0':
     resolution: {integrity: sha512-qWJ2ZTbmumwiLFomfzTyt5Kng4hwPi9rwCYN4SHb6eaRU1KNO4ccxINHr/VhH4GgPlt1XfSTLX2LBTme8ne4Zw==}
@@ -1571,8 +1581,8 @@ packages:
   '@types/jsonfile@6.1.4':
     resolution: {integrity: sha512-D5qGUYwjvnNNextdU59/+fI+spnwtTFmyQP0h+PfIOSkNfpU6AOICUOkm4i0OnSk+NyjdPJrxCDro0sJsWlRpQ==}
 
-  '@types/node@24.12.0':
-    resolution: {integrity: sha512-GYDxsZi3ChgmckRT9HPU0WEhKLP08ev/Yfcq2AstjrDASOYCSXeyjDsHg4v5t4jOj7cyDX3vmprafKlWIG9MXQ==}
+  '@types/node@24.12.2':
+    resolution: {integrity: sha512-A1sre26ke7HDIuY/M23nd9gfB+nrmhtYyMINbjI1zHJxYteKR6qSMX56FsmjMcDb3SMcjJg5BiRRgOCC/yBD0g==}
 
   '@types/parse-json@4.0.2':
     resolution: {integrity: sha512-dISoDXWWQwUquiKsyZ4Ng+HX2KsPL7LyHKHQwgGFEA3IaKac4Obd+h2a/a6waisAoepJlBcx9paWqjA8/HVjCw==}
@@ -1625,13 +1635,13 @@ packages:
       eslint: ^8.57.0 || ^9.0.0
       typescript: '>=4.8.4 <6.0.0'
 
-  '@typescript-eslint/eslint-plugin@8.57.1':
-    resolution: {integrity: sha512-Gn3aqnvNl4NGc6x3/Bqk1AOn0thyTU9bqDRhiRnUWezgvr2OnhYCWCgC8zXXRVqBsIL1pSDt7T9nJUe0oM0kDQ==}
+  '@typescript-eslint/eslint-plugin@8.58.0':
+    resolution: {integrity: sha512-RLkVSiNuUP1C2ROIWfqX+YcUfLaSnxGE/8M+Y57lopVwg9VTYYfhuz15Yf1IzCKgZj6/rIbYTmJCUSqr76r0Wg==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
-      '@typescript-eslint/parser': ^8.57.1
+      '@typescript-eslint/parser': ^8.58.0
       eslint: ^8.57.0 || ^9.0.0 || ^10.0.0
-      typescript: '>=4.8.4 <6.0.0'
+      typescript: '>=4.8.4 <6.1.0'
 
   '@typescript-eslint/parser@8.46.2':
     resolution: {integrity: sha512-BnOroVl1SgrPLywqxyqdJ4l3S2MsKVLDVxZvjI1Eoe8ev2r3kGDo+PcMihNmDE+6/KjkTubSJnmqGZZjQSBq/g==}
@@ -1640,12 +1650,12 @@ packages:
       eslint: ^8.57.0 || ^9.0.0
       typescript: '>=4.8.4 <6.0.0'
 
-  '@typescript-eslint/parser@8.57.1':
-    resolution: {integrity: sha512-k4eNDan0EIMTT/dUKc/g+rsJ6wcHYhNPdY19VoX/EOtaAG8DLtKCykhrUnuHPYvinn5jhAPgD2Qw9hXBwrahsw==}
+  '@typescript-eslint/parser@8.58.0':
+    resolution: {integrity: sha512-rLoGZIf9afaRBYsPUMtvkDWykwXwUPL60HebR4JgTI8mxfFe2cQTu3AGitANp4b9B2QlVru6WzjgB2IzJKiCSA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: ^8.57.0 || ^9.0.0 || ^10.0.0
-      typescript: '>=4.8.4 <6.0.0'
+      typescript: '>=4.8.4 <6.1.0'
 
   '@typescript-eslint/project-service@8.46.2':
     resolution: {integrity: sha512-PULOLZ9iqwI7hXcmL4fVfIsBi6AN9YxRc0frbvmg8f+4hQAjQ5GYNKK0DIArNo+rOKmR/iBYwkpBmnIwin4wBg==}
@@ -1653,18 +1663,18 @@ packages:
     peerDependencies:
       typescript: '>=4.8.4 <6.0.0'
 
-  '@typescript-eslint/project-service@8.57.1':
-    resolution: {integrity: sha512-vx1F37BRO1OftsYlmG9xay1TqnjNVlqALymwWVuYTdo18XuKxtBpCj1QlzNIEHlvlB27osvXFWptYiEWsVdYsg==}
+  '@typescript-eslint/project-service@8.58.0':
+    resolution: {integrity: sha512-8Q/wBPWLQP1j16NxoPNIKpDZFMaxl7yWIoqXWYeWO+Bbd2mjgvoF0dxP2jKZg5+x49rgKdf7Ck473M8PC3V9lg==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
-      typescript: '>=4.8.4 <6.0.0'
+      typescript: '>=4.8.4 <6.1.0'
 
   '@typescript-eslint/scope-manager@8.46.2':
     resolution: {integrity: sha512-LF4b/NmGvdWEHD2H4MsHD8ny6JpiVNDzrSZr3CsckEgCbAGZbYM4Cqxvi9L+WqDMT+51Ozy7lt2M+d0JLEuBqA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@typescript-eslint/scope-manager@8.57.1':
-    resolution: {integrity: sha512-hs/QcpCwlwT2L5S+3fT6gp0PabyGk4Q0Rv2doJXA0435/OpnSR3VRgvrp8Xdoc3UAYSg9cyUjTeFXZEPg/3OKg==}
+  '@typescript-eslint/scope-manager@8.58.0':
+    resolution: {integrity: sha512-W1Lur1oF50FxSnNdGp3Vs6P+yBRSmZiw4IIjEeYxd8UQJwhUF0gDgDD/W/Tgmh73mxgEU3qX0Bzdl/NGuSPEpQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
   '@typescript-eslint/tsconfig-utils@8.46.2':
@@ -1673,11 +1683,11 @@ packages:
     peerDependencies:
       typescript: '>=4.8.4 <6.0.0'
 
-  '@typescript-eslint/tsconfig-utils@8.57.1':
-    resolution: {integrity: sha512-0lgOZB8cl19fHO4eI46YUx2EceQqhgkPSuCGLlGi79L2jwYY1cxeYc1Nae8Aw1xjgW3PKVDLlr3YJ6Bxx8HkWg==}
+  '@typescript-eslint/tsconfig-utils@8.58.0':
+    resolution: {integrity: sha512-doNSZEVJsWEu4htiVC+PR6NpM+pa+a4ClH9INRWOWCUzMst/VA9c4gXq92F8GUD1rwhNvRLkgjfYtFXegXQF7A==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
-      typescript: '>=4.8.4 <6.0.0'
+      typescript: '>=4.8.4 <6.1.0'
 
   '@typescript-eslint/type-utils@8.46.2':
     resolution: {integrity: sha512-HbPM4LbaAAt/DjxXaG9yiS9brOOz6fabal4uvUmaUYe6l3K1phQDMQKBRUrr06BQkxkvIZVVHttqiybM9nJsLA==}
@@ -1686,23 +1696,23 @@ packages:
       eslint: ^8.57.0 || ^9.0.0
       typescript: '>=4.8.4 <6.0.0'
 
-  '@typescript-eslint/type-utils@8.57.1':
-    resolution: {integrity: sha512-+Bwwm0ScukFdyoJsh2u6pp4S9ktegF98pYUU0hkphOOqdMB+1sNQhIz8y5E9+4pOioZijrkfNO/HUJVAFFfPKA==}
+  '@typescript-eslint/type-utils@8.58.0':
+    resolution: {integrity: sha512-aGsCQImkDIqMyx1u4PrVlbi/krmDsQUs4zAcCV6M7yPcPev+RqVlndsJy9kJ8TLihW9TZ0kbDAzctpLn5o+lOg==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: ^8.57.0 || ^9.0.0 || ^10.0.0
-      typescript: '>=4.8.4 <6.0.0'
+      typescript: '>=4.8.4 <6.1.0'
 
   '@typescript-eslint/types@8.46.2':
     resolution: {integrity: sha512-lNCWCbq7rpg7qDsQrd3D6NyWYu+gkTENkG5IKYhUIcxSb59SQC/hEQ+MrG4sTgBVghTonNWq42bA/d4yYumldQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@typescript-eslint/types@8.57.0':
-    resolution: {integrity: sha512-dTLI8PEXhjUC7B9Kre+u0XznO696BhXcTlOn0/6kf1fHaQW8+VjJAVHJ3eTI14ZapTxdkOmc80HblPQLaEeJdg==}
-    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
-
   '@typescript-eslint/types@8.57.1':
     resolution: {integrity: sha512-S29BOBPJSFUiblEl6RzPPjJt6w25A6XsBqRVDt53tA/tlL8q7ceQNZHTjPeONt/3S7KRI4quk+yP9jK2WjBiPQ==}
+    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+
+  '@typescript-eslint/types@8.58.0':
+    resolution: {integrity: sha512-O9CjxypDT89fbHxRfETNoAnHj/i6IpRK0CvbVN3qibxlLdo5p5hcLmUuCCrHMpxiWSwKyI8mCP7qRNYuOJ0Uww==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
   '@typescript-eslint/typescript-estree@8.46.2':
@@ -1711,11 +1721,11 @@ packages:
     peerDependencies:
       typescript: '>=4.8.4 <6.0.0'
 
-  '@typescript-eslint/typescript-estree@8.57.1':
-    resolution: {integrity: sha512-ybe2hS9G6pXpqGtPli9Gx9quNV0TWLOmh58ADlmZe9DguLq0tiAKVjirSbtM1szG6+QH6rVXyU6GTLQbWnMY+g==}
+  '@typescript-eslint/typescript-estree@8.58.0':
+    resolution: {integrity: sha512-7vv5UWbHqew/dvs+D3e1RvLv1v2eeZ9txRHPnEEBUgSNLx5ghdzjHa0sgLWYVKssH+lYmV0JaWdoubo0ncGYLA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
-      typescript: '>=4.8.4 <6.0.0'
+      typescript: '>=4.8.4 <6.1.0'
 
   '@typescript-eslint/utils@8.46.2':
     resolution: {integrity: sha512-sExxzucx0Tud5tE0XqR0lT0psBQvEpnpiul9XbGUB1QwpWJJAps1O/Z7hJxLGiZLBKMCutjTzDgmd1muEhBnVg==}
@@ -1724,54 +1734,54 @@ packages:
       eslint: ^8.57.0 || ^9.0.0
       typescript: '>=4.8.4 <6.0.0'
 
-  '@typescript-eslint/utils@8.57.1':
-    resolution: {integrity: sha512-XUNSJ/lEVFttPMMoDVA2r2bwrl8/oPx8cURtczkSEswY5T3AeLmCy+EKWQNdL4u0MmAHOjcWrqJp2cdvgjn8dQ==}
+  '@typescript-eslint/utils@8.58.0':
+    resolution: {integrity: sha512-RfeSqcFeHMHlAWzt4TBjWOAtoW9lnsAGiP3GbaX9uVgTYYrMbVnGONEfUCiSss+xMHFl+eHZiipmA8WkQ7FuNA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: ^8.57.0 || ^9.0.0 || ^10.0.0
-      typescript: '>=4.8.4 <6.0.0'
+      typescript: '>=4.8.4 <6.1.0'
 
   '@typescript-eslint/visitor-keys@8.46.2':
     resolution: {integrity: sha512-tUFMXI4gxzzMXt4xpGJEsBsTox0XbNQ1y94EwlD/CuZwFcQP79xfQqMhau9HsRc/J0cAPA/HZt1dZPtGn9V/7w==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@typescript-eslint/visitor-keys@8.57.1':
-    resolution: {integrity: sha512-YWnmJkXbofiz9KbnbbwuA2rpGkFPLbAIetcCNO6mJ8gdhdZ/v7WDXsoGFAJuM6ikUFKTlSQnjWnVO4ux+UzS6A==}
+  '@typescript-eslint/visitor-keys@8.58.0':
+    resolution: {integrity: sha512-XJ9UD9+bbDo4a4epraTwG3TsNPeiB9aShrUneAVXy8q4LuwowN+qu89/6ByLMINqvIMeI9H9hOHQtg/ijrYXzQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
   '@vitejs/plugin-react-swc@3.7.2':
     resolution: {integrity: sha512-y0byko2b2tSVVf5Gpng1eEhX1OvPC7x8yns1Fx8jDzlJp4LS6CMkCPfLw47cjyoMrshQDoQw4qcgjsU9VvlCew==}
     peerDependencies:
-      vite: 8.0.1
+      vite: 8.0.3
 
-  '@vitest/expect@4.1.0':
-    resolution: {integrity: sha512-EIxG7k4wlWweuCLG9Y5InKFwpMEOyrMb6ZJ1ihYu02LVj/bzUwn2VMU+13PinsjRW75XnITeFrQBMH5+dLvCDA==}
+  '@vitest/expect@4.1.2':
+    resolution: {integrity: sha512-gbu+7B0YgUJ2nkdsRJrFFW6X7NTP44WlhiclHniUhxADQJH5Szt9mZ9hWnJPJ8YwOK5zUOSSlSvyzRf0u1DSBQ==}
 
-  '@vitest/mocker@4.1.0':
-    resolution: {integrity: sha512-evxREh+Hork43+Y4IOhTo+h5lGmVRyjqI739Rz4RlUPqwrkFFDF6EMvOOYjTx4E8Tl6gyCLRL8Mu7Ry12a13Tw==}
+  '@vitest/mocker@4.1.2':
+    resolution: {integrity: sha512-Ize4iQtEALHDttPRCmN+FKqOl2vxTiNUhzobQFFt/BM1lRUTG7zRCLOykG/6Vo4E4hnUdfVLo5/eqKPukcWW7Q==}
     peerDependencies:
       msw: ^2.4.9
-      vite: 8.0.1
+      vite: 8.0.3
     peerDependenciesMeta:
       msw:
         optional: true
       vite:
         optional: true
 
-  '@vitest/pretty-format@4.1.0':
-    resolution: {integrity: sha512-3RZLZlh88Ib0J7NQTRATfc/3ZPOnSUn2uDBUoGNn5T36+bALixmzphN26OUD3LRXWkJu4H0s5vvUeqBiw+kS0A==}
+  '@vitest/pretty-format@4.1.2':
+    resolution: {integrity: sha512-dwQga8aejqeuB+TvXCMzSQemvV9hNEtDDpgUKDzOmNQayl2OG241PSWeJwKRH3CiC+sESrmoFd49rfnq7T4RnA==}
 
-  '@vitest/runner@4.1.0':
-    resolution: {integrity: sha512-Duvx2OzQ7d6OjchL+trw+aSrb9idh7pnNfxrklo14p3zmNL4qPCDeIJAK+eBKYjkIwG96Bc6vYuxhqDXQOWpoQ==}
+  '@vitest/runner@4.1.2':
+    resolution: {integrity: sha512-Gr+FQan34CdiYAwpGJmQG8PgkyFVmARK8/xSijia3eTFgVfpcpztWLuP6FttGNfPLJhaZVP/euvujeNYar36OQ==}
 
-  '@vitest/snapshot@4.1.0':
-    resolution: {integrity: sha512-0Vy9euT1kgsnj1CHttwi9i9o+4rRLEaPRSOJ5gyv579GJkNpgJK+B4HSv/rAWixx2wdAFci1X4CEPjiu2bXIMg==}
+  '@vitest/snapshot@4.1.2':
+    resolution: {integrity: sha512-g7yfUmxYS4mNxk31qbOYsSt2F4m1E02LFqO53Xpzg3zKMhLAPZAjjfyl9e6z7HrW6LvUdTwAQR3HHfLjpko16A==}
 
-  '@vitest/spy@4.1.0':
-    resolution: {integrity: sha512-pz77k+PgNpyMDv2FV6qmk5ZVau6c3R8HC8v342T2xlFxQKTrSeYw9waIJG8KgV9fFwAtTu4ceRzMivPTH6wSxw==}
+  '@vitest/spy@4.1.2':
+    resolution: {integrity: sha512-DU4fBnbVCJGNBwVA6xSToNXrkZNSiw59H8tcuUspVMsBDBST4nfvsPsEHDHGtWRRnqBERBQu7TrTKskmjqTXKA==}
 
-  '@vitest/utils@4.1.0':
-    resolution: {integrity: sha512-XfPXT6a8TZY3dcGY8EdwsBulFCIw+BeeX0RZn2x/BtiY/75YGh8FeWGG8QISN/WhaqSrE2OrlDgtF8q5uhOTmw==}
+  '@vitest/utils@4.1.2':
+    resolution: {integrity: sha512-xw2/TiX82lQHA06cgbqRKFb5lCAy3axQ4H4SoUFhUsg+wztiet+co86IAMDtF6Vm1hc7J6j09oh/rgDn+JdKIQ==}
 
   abort-controller@3.0.0:
     resolution: {integrity: sha512-h8lQ8tacZYnR3vNQTgibj+tODHI5/+l06Au2Pcriv/Gmet0eaj4TwWH41sO9wnHDiQsEj19q0drzdWdeAHtweg==}
@@ -3336,6 +3346,10 @@ packages:
     resolution: {integrity: sha512-5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q==}
     engines: {node: '>=12'}
 
+  picomatch@4.0.4:
+    resolution: {integrity: sha512-QP88BAKvMam/3NxH6vj2o21R6MjxZUAd6nlwAS/pnGvN9IVLocLHxGYIzFhg6fUQ+5th6P4dv4eW9jX3DSIj7A==}
+    engines: {node: '>=12'}
+
   pixi-basis-ktx2@0.0.22:
     resolution: {integrity: sha512-/1fa2YjjfYTG3AZlvnLu1B0uZPgXuFY2zijoy/VoUwGokHQ6HwLy0LtVVxFWK9Vwl5zGSRJnGpEV0/34ydKfog==}
     version: 0.0.22
@@ -3527,8 +3541,8 @@ packages:
     engines: {node: 20 || >=22}
     hasBin: true
 
-  rolldown@1.0.0-rc.10:
-    resolution: {integrity: sha512-q7j6vvarRFmKpgJUT8HCAUljkgzEp4LAhPlJUvQhA5LA1SUL36s5QCysMutErzL3EbNOZOkoziSx9iZC4FddKA==}
+  rolldown@1.0.0-rc.12:
+    resolution: {integrity: sha512-yP4USLIMYrwpPHEFB5JGH1uxhcslv6/hL0OyvTuY+3qlOSJvZ7ntYnoWpehBxufkgN0cvXxppuTu5hHa/zPh+A==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
 
@@ -3805,8 +3819,8 @@ packages:
   tinymce@6.8.5:
     resolution: {integrity: sha512-qAL/FxL7cwZHj4BfaF818zeJJizK9jU5IQzTcSLL4Rj5MaJdiVblEj7aDr80VCV1w9h4Lak9hlnALhq/kVtN1g==}
 
-  tinyrainbow@3.0.3:
-    resolution: {integrity: sha512-PSkbLUoxOFRzJYjjxHJt9xro7D+iilgMX/C9lawzVuYiIdcihh9DXmVibBe8lmcFrRi/VzlPjBxbN7rH24q8/Q==}
+  tinyrainbow@3.1.0:
+    resolution: {integrity: sha512-Bf+ILmBgretUrdJxzXM0SgXLZ3XfiaUuOj/IKQHuTXip+05Xn+uyEYdVg0kYDipTBcLrCVyUzAPz7QmArb0mmw==}
     engines: {node: '>=14.0.0'}
 
   to-regex-range@5.0.1:
@@ -3815,6 +3829,12 @@ packages:
 
   ts-api-utils@2.4.0:
     resolution: {integrity: sha512-3TaVTaAv2gTiMB35i3FiGJaRfwb3Pyn/j3m/bfAvGe8FB7CF6u+LMYqYlDh7reQf7UNvoTvdfAqHGmPGOSsPmA==}
+    engines: {node: '>=18.12'}
+    peerDependencies:
+      typescript: '>=4.8.4'
+
+  ts-api-utils@2.5.0:
+    resolution: {integrity: sha512-OJ/ibxhPlqrMM0UiNHJ/0CKQkoKF243/AEmplt3qpRgkW8VG7IfOS41h7V8TjITqdByHzrjcS/2si+y4lIh8NA==}
     engines: {node: '>=18.12'}
     peerDependencies:
       typescript: '>=4.8.4'
@@ -3909,14 +3929,14 @@ packages:
   vite-plugin-svgr@4.5.0:
     resolution: {integrity: sha512-W+uoSpmVkSmNOGPSsDCWVW/DDAyv+9fap9AZXBvWiQqrboJ08j2vh0tFxTD/LjwqwAd3yYSVJgm54S/1GhbdnA==}
     peerDependencies:
-      vite: 8.0.1
+      vite: 8.0.3
 
-  vite@8.0.1:
-    resolution: {integrity: sha512-wt+Z2qIhfFt85uiyRt5LPU4oVEJBXj8hZNWKeqFG4gRG/0RaRGJ7njQCwzFVjO+v4+Ipmf5CY7VdmZRAYYBPHw==}
+  vite@8.0.3:
+    resolution: {integrity: sha512-B9ifbFudT1TFhfltfaIPgjo9Z3mDynBTJSUYxTjOQruf/zHH+ezCQKcoqO+h7a9Pw9Nm/OtlXAiGT1axBgwqrQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
-      '@types/node': 24.12.0
+      '@types/node': 24.12.2
       '@vitejs/devtools': ^0.1.0
       esbuild: ^0.27.0
       jiti: '>=1.21.0'
@@ -3954,21 +3974,21 @@ packages:
       yaml:
         optional: true
 
-  vitest@4.1.0:
-    resolution: {integrity: sha512-YbDrMF9jM2Lqc++2530UourxZHmkKLxrs4+mYhEwqWS97WJ7wOYEkcr+QfRgJ3PW9wz3odRijLZjHEaRLTNbqw==}
+  vitest@4.1.2:
+    resolution: {integrity: sha512-xjR1dMTVHlFLh98JE3i/f/WePqJsah4A0FK9cc8Ehp9Udk0AZk6ccpIZhh1qJ/yxVWRZ+Q54ocnD8TXmkhspGg==}
     engines: {node: ^20.0.0 || ^22.0.0 || >=24.0.0}
     hasBin: true
     peerDependencies:
       '@edge-runtime/vm': '*'
       '@opentelemetry/api': ^1.9.0
-      '@types/node': 24.12.0
-      '@vitest/browser-playwright': 4.1.0
-      '@vitest/browser-preview': 4.1.0
-      '@vitest/browser-webdriverio': 4.1.0
-      '@vitest/ui': 4.1.0
+      '@types/node': 24.12.2
+      '@vitest/browser-playwright': 4.1.2
+      '@vitest/browser-preview': 4.1.2
+      '@vitest/browser-webdriverio': 4.1.2
+      '@vitest/ui': 4.1.2
       happy-dom: '*'
       jsdom: '*'
-      vite: 8.0.1
+      vite: 8.0.3
     peerDependenciesMeta:
       '@edge-runtime/vm':
         optional: true
@@ -4766,13 +4786,13 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@league-of-foundry-developers/foundry-vtt-types@https://codeload.github.com/League-of-Foundry-Developers/foundry-vtt-types/tar.gz/911d2286c6bcf639a200160bd3de23b26a0460ff(@pixi/assets@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))(@pixi/constants@7.4.3)(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))(@pixi/graphics@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))(@pixi/sprite@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))))(@pixi/math@7.4.3)(@pixi/sprite@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3)))(@pixi/ticker@7.4.3)(typescript@5.9.3)':
+  '@league-of-foundry-developers/foundry-vtt-types@https://codeload.github.com/League-of-Foundry-Developers/foundry-vtt-types/tar.gz/911d2286c6bcf639a200160bd3de23b26a0460ff(@pixi/constants@7.4.3)(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))(@pixi/graphics@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))(@pixi/sprite@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))))(@pixi/math@7.4.3)(@pixi/sprite@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3)))(@pixi/ticker@7.4.3)(typescript@5.9.3)':
     dependencies:
       '@codemirror/lang-html': 6.4.9
       '@codemirror/lang-javascript': 6.2.4
       '@codemirror/lang-json': 6.0.1
       '@codemirror/lang-markdown': 6.3.3
-      '@pixi/basis': https://codeload.github.com/foundry-vtt-types/pixi-basis/tar.gz/d0956799d7c23f59e12b7b2ec4dc21c041180b0e(@pixi/assets@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))(@pixi/core@7.4.3)
+      '@pixi/basis': https://codeload.github.com/foundry-vtt-types/pixi-basis/tar.gz/d0956799d7c23f59e12b7b2ec4dc21c041180b0e(@pixi/core@7.4.3)
       '@pixi/graphics-smooth': 1.1.1(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))(@pixi/graphics@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))(@pixi/sprite@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))))
       '@pixi/particle-emitter': https://codeload.github.com/foundry-vtt-types/pixi-particle-emitter/tar.gz/9bd3cb53826b2c7d4c407db183f4dd93edd50aae(@pixi/constants@7.4.3)(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))(@pixi/math@7.4.3)(@pixi/sprite@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3)))(@pixi/ticker@7.4.3)
       '@types/jquery': 3.5.32
@@ -4887,42 +4907,36 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.17.1
 
-  '@oxc-project/types@0.120.0': {}
+  '@oxc-project/types@0.122.0': {}
 
   '@peggyjs/from-mem@1.3.5':
     dependencies:
       semver: 7.6.3
 
-  '@pixi/accessibility@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))(@pixi/events@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)))':
+  '@pixi/accessibility@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))(@pixi/events@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)))':
     dependencies:
-      '@pixi/core': 7.4.3
-      '@pixi/display': 7.4.3(@pixi/core@7.4.3)
+      '@pixi/core': https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e
+      '@pixi/display': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)
       '@pixi/events': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))
 
-  '@pixi/app@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))':
+  '@pixi/app@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))':
     dependencies:
-      '@pixi/core': 7.4.3
-      '@pixi/display': 7.4.3(@pixi/core@7.4.3)
-
-  '@pixi/assets@7.4.3(@pixi/core@7.4.3)':
-    dependencies:
-      '@pixi/core': 7.4.3
-      '@types/css-font-loading-module': 0.0.12
+      '@pixi/core': https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e
+      '@pixi/display': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)
 
   '@pixi/assets@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)':
     dependencies:
       '@pixi/core': https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e
       '@types/css-font-loading-module': 0.0.12
 
-  '@pixi/basis@https://codeload.github.com/foundry-vtt-types/pixi-basis/tar.gz/d0956799d7c23f59e12b7b2ec4dc21c041180b0e(@pixi/assets@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))(@pixi/core@7.4.3)':
-    dependencies:
-      '@pixi/assets': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)
-      '@pixi/core': 7.4.3
-
   '@pixi/basis@https://codeload.github.com/foundry-vtt-types/pixi-basis/tar.gz/d0956799d7c23f59e12b7b2ec4dc21c041180b0e(@pixi/assets@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)':
     dependencies:
       '@pixi/assets': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)
       '@pixi/core': https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e
+
+  '@pixi/basis@https://codeload.github.com/foundry-vtt-types/pixi-basis/tar.gz/d0956799d7c23f59e12b7b2ec4dc21c041180b0e(@pixi/core@7.4.3)':
+    dependencies:
+      '@pixi/core': 7.4.3
 
   '@pixi/color@7.4.3':
     dependencies:
@@ -4930,10 +4944,10 @@ snapshots:
 
   '@pixi/colord@2.9.6': {}
 
-  '@pixi/compressed-textures@7.4.3(@pixi/assets@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))(@pixi/core@7.4.3)':
+  '@pixi/compressed-textures@7.4.3(@pixi/assets@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)':
     dependencies:
       '@pixi/assets': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)
-      '@pixi/core': 7.4.3
+      '@pixi/core': https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e
 
   '@pixi/constants@7.4.3': {}
 
@@ -4967,11 +4981,6 @@ snapshots:
     dependencies:
       '@pixi/core': https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e
 
-  '@pixi/events@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))':
-    dependencies:
-      '@pixi/core': 7.4.3
-      '@pixi/display': 7.4.3(@pixi/core@7.4.3)
-
   '@pixi/events@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))':
     dependencies:
       '@pixi/core': https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e
@@ -4979,33 +4988,33 @@ snapshots:
 
   '@pixi/extensions@7.4.3': {}
 
-  '@pixi/extract@7.4.3(@pixi/core@7.4.3)':
+  '@pixi/extract@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)':
     dependencies:
-      '@pixi/core': 7.4.3
+      '@pixi/core': https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e
 
-  '@pixi/filter-alpha@7.4.3(@pixi/core@7.4.3)':
+  '@pixi/filter-alpha@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)':
     dependencies:
-      '@pixi/core': 7.4.3
+      '@pixi/core': https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e
 
-  '@pixi/filter-blur@7.4.3(@pixi/core@7.4.3)':
+  '@pixi/filter-blur@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)':
     dependencies:
-      '@pixi/core': 7.4.3
+      '@pixi/core': https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e
 
-  '@pixi/filter-color-matrix@7.4.3(@pixi/core@7.4.3)':
+  '@pixi/filter-color-matrix@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)':
     dependencies:
-      '@pixi/core': 7.4.3
+      '@pixi/core': https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e
 
-  '@pixi/filter-displacement@7.4.3(@pixi/core@7.4.3)':
+  '@pixi/filter-displacement@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)':
     dependencies:
-      '@pixi/core': 7.4.3
+      '@pixi/core': https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e
 
-  '@pixi/filter-fxaa@7.4.3(@pixi/core@7.4.3)':
+  '@pixi/filter-fxaa@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)':
     dependencies:
-      '@pixi/core': 7.4.3
+      '@pixi/core': https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e
 
-  '@pixi/filter-noise@7.4.3(@pixi/core@7.4.3)':
+  '@pixi/filter-noise@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)':
     dependencies:
-      '@pixi/core': 7.4.3
+      '@pixi/core': https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e
 
   '@pixi/graphics-smooth@1.1.1(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))(@pixi/graphics@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))(@pixi/sprite@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))))':
     dependencies:
@@ -5033,41 +5042,36 @@ snapshots:
 
   '@pixi/math@7.4.3': {}
 
-  '@pixi/mesh-extras@7.4.3(@pixi/core@7.4.3)(@pixi/mesh@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)))':
+  '@pixi/mesh-extras@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/mesh@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)))':
     dependencies:
-      '@pixi/core': 7.4.3
+      '@pixi/core': https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e
       '@pixi/mesh': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))
-
-  '@pixi/mesh@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))':
-    dependencies:
-      '@pixi/core': 7.4.3
-      '@pixi/display': 7.4.3(@pixi/core@7.4.3)
 
   '@pixi/mesh@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))':
     dependencies:
       '@pixi/core': https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e
       '@pixi/display': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)
 
-  '@pixi/mixin-cache-as-bitmap@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))(@pixi/sprite@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3)))':
+  '@pixi/mixin-cache-as-bitmap@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))(@pixi/sprite@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)))':
     dependencies:
-      '@pixi/core': 7.4.3
-      '@pixi/display': 7.4.3(@pixi/core@7.4.3)
-      '@pixi/sprite': 7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))
+      '@pixi/core': https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e
+      '@pixi/display': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)
+      '@pixi/sprite': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))
 
-  '@pixi/mixin-get-child-by-name@7.4.3(@pixi/display@7.4.3(@pixi/core@7.4.3))':
+  '@pixi/mixin-get-child-by-name@7.4.3(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))':
     dependencies:
-      '@pixi/display': 7.4.3(@pixi/core@7.4.3)
+      '@pixi/display': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)
 
-  '@pixi/mixin-get-global-position@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))':
+  '@pixi/mixin-get-global-position@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))':
     dependencies:
-      '@pixi/core': 7.4.3
-      '@pixi/display': 7.4.3(@pixi/core@7.4.3)
+      '@pixi/core': https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e
+      '@pixi/display': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)
 
-  '@pixi/particle-container@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))(@pixi/sprite@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3)))':
+  '@pixi/particle-container@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))(@pixi/sprite@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)))':
     dependencies:
-      '@pixi/core': 7.4.3
-      '@pixi/display': 7.4.3(@pixi/core@7.4.3)
-      '@pixi/sprite': 7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))
+      '@pixi/core': https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e
+      '@pixi/display': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)
+      '@pixi/sprite': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))
 
   '@pixi/particle-emitter@https://codeload.github.com/foundry-vtt-types/pixi-particle-emitter/tar.gz/9bd3cb53826b2c7d4c407db183f4dd93edd50aae(@pixi/constants@7.4.3)(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))(@pixi/math@7.4.3)(@pixi/sprite@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3)))(@pixi/ticker@7.4.3)':
     dependencies:
@@ -5087,11 +5091,11 @@ snapshots:
       '@pixi/sprite': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))
       '@pixi/ticker': 7.4.3
 
-  '@pixi/prepare@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))(@pixi/graphics@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))(@pixi/sprite@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))))(@pixi/text@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/sprite@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))))':
+  '@pixi/prepare@7.4.3(9c3814c1efdb4259a63b90983c692c89)':
     dependencies:
-      '@pixi/core': 7.4.3
-      '@pixi/display': 7.4.3(@pixi/core@7.4.3)
-      '@pixi/graphics': 7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))(@pixi/sprite@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3)))
+      '@pixi/core': https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e
+      '@pixi/display': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)
+      '@pixi/graphics': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))(@pixi/sprite@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)))
       '@pixi/text': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/sprite@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)))
 
   '@pixi/runner@7.4.3': {}
@@ -5102,16 +5106,16 @@ snapshots:
       '@types/css-font-loading-module': 0.0.12
       ismobilejs: 1.1.1
 
-  '@pixi/sprite-animated@7.4.3(@pixi/core@7.4.3)(@pixi/sprite@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3)))':
+  '@pixi/sprite-animated@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/sprite@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)))':
     dependencies:
-      '@pixi/core': 7.4.3
-      '@pixi/sprite': 7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))
+      '@pixi/core': https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e
+      '@pixi/sprite': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))
 
-  '@pixi/sprite-tiling@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))(@pixi/sprite@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3)))':
+  '@pixi/sprite-tiling@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))(@pixi/sprite@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)))':
     dependencies:
-      '@pixi/core': 7.4.3
-      '@pixi/display': 7.4.3(@pixi/core@7.4.3)
-      '@pixi/sprite': 7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))
+      '@pixi/core': https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e
+      '@pixi/display': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)
+      '@pixi/sprite': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))
 
   '@pixi/sprite@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))':
     dependencies:
@@ -5123,30 +5127,25 @@ snapshots:
       '@pixi/core': https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e
       '@pixi/display': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)
 
-  '@pixi/spritesheet@7.4.3(@pixi/assets@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))(@pixi/core@7.4.3)':
+  '@pixi/spritesheet@7.4.3(@pixi/assets@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)':
     dependencies:
       '@pixi/assets': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)
-      '@pixi/core': 7.4.3
+      '@pixi/core': https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e
 
-  '@pixi/text-bitmap@7.4.3(@pixi/assets@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))(@pixi/mesh@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)))(@pixi/text@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/sprite@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))))':
+  '@pixi/text-bitmap@7.4.3(08ca4b05cd1582363caa7758f215abe2)':
     dependencies:
       '@pixi/assets': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)
-      '@pixi/core': 7.4.3
-      '@pixi/display': 7.4.3(@pixi/core@7.4.3)
+      '@pixi/core': https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e
+      '@pixi/display': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)
       '@pixi/mesh': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))
       '@pixi/text': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/sprite@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)))
 
-  '@pixi/text-html@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))(@pixi/sprite@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3)))(@pixi/text@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/sprite@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))))':
+  '@pixi/text-html@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))(@pixi/sprite@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)))(@pixi/text@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/sprite@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))))':
     dependencies:
-      '@pixi/core': 7.4.3
-      '@pixi/display': 7.4.3(@pixi/core@7.4.3)
-      '@pixi/sprite': 7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))
+      '@pixi/core': https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e
+      '@pixi/display': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)
+      '@pixi/sprite': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))
       '@pixi/text': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/sprite@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)))
-
-  '@pixi/text@7.4.3(@pixi/core@7.4.3)(@pixi/sprite@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3)))':
-    dependencies:
-      '@pixi/core': 7.4.3
-      '@pixi/sprite': 7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))
 
   '@pixi/text@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/sprite@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)))':
     dependencies:
@@ -5188,54 +5187,54 @@ snapshots:
   '@pkgjs/parseargs@0.11.0':
     optional: true
 
-  '@rolldown/binding-android-arm64@1.0.0-rc.10':
+  '@rolldown/binding-android-arm64@1.0.0-rc.12':
     optional: true
 
-  '@rolldown/binding-darwin-arm64@1.0.0-rc.10':
+  '@rolldown/binding-darwin-arm64@1.0.0-rc.12':
     optional: true
 
-  '@rolldown/binding-darwin-x64@1.0.0-rc.10':
+  '@rolldown/binding-darwin-x64@1.0.0-rc.12':
     optional: true
 
-  '@rolldown/binding-freebsd-x64@1.0.0-rc.10':
+  '@rolldown/binding-freebsd-x64@1.0.0-rc.12':
     optional: true
 
-  '@rolldown/binding-linux-arm-gnueabihf@1.0.0-rc.10':
+  '@rolldown/binding-linux-arm-gnueabihf@1.0.0-rc.12':
     optional: true
 
-  '@rolldown/binding-linux-arm64-gnu@1.0.0-rc.10':
+  '@rolldown/binding-linux-arm64-gnu@1.0.0-rc.12':
     optional: true
 
-  '@rolldown/binding-linux-arm64-musl@1.0.0-rc.10':
+  '@rolldown/binding-linux-arm64-musl@1.0.0-rc.12':
     optional: true
 
-  '@rolldown/binding-linux-ppc64-gnu@1.0.0-rc.10':
+  '@rolldown/binding-linux-ppc64-gnu@1.0.0-rc.12':
     optional: true
 
-  '@rolldown/binding-linux-s390x-gnu@1.0.0-rc.10':
+  '@rolldown/binding-linux-s390x-gnu@1.0.0-rc.12':
     optional: true
 
-  '@rolldown/binding-linux-x64-gnu@1.0.0-rc.10':
+  '@rolldown/binding-linux-x64-gnu@1.0.0-rc.12':
     optional: true
 
-  '@rolldown/binding-linux-x64-musl@1.0.0-rc.10':
+  '@rolldown/binding-linux-x64-musl@1.0.0-rc.12':
     optional: true
 
-  '@rolldown/binding-openharmony-arm64@1.0.0-rc.10':
+  '@rolldown/binding-openharmony-arm64@1.0.0-rc.12':
     optional: true
 
-  '@rolldown/binding-wasm32-wasi@1.0.0-rc.10':
+  '@rolldown/binding-wasm32-wasi@1.0.0-rc.12':
     dependencies:
       '@napi-rs/wasm-runtime': 1.1.1
     optional: true
 
-  '@rolldown/binding-win32-arm64-msvc@1.0.0-rc.10':
+  '@rolldown/binding-win32-arm64-msvc@1.0.0-rc.12':
     optional: true
 
-  '@rolldown/binding-win32-x64-msvc@1.0.0-rc.10':
+  '@rolldown/binding-win32-x64-msvc@1.0.0-rc.12':
     optional: true
 
-  '@rolldown/pluginutils@1.0.0-rc.10': {}
+  '@rolldown/pluginutils@1.0.0-rc.12': {}
 
   '@rollup/pluginutils@5.2.0(rollup@4.46.2)':
     dependencies:
@@ -5511,7 +5510,7 @@ snapshots:
 
   '@types/cors@2.8.19':
     dependencies:
-      '@types/node': 24.12.0
+      '@types/node': 24.12.2
 
   '@types/css-font-loading-module@0.0.12': {}
 
@@ -5526,7 +5525,7 @@ snapshots:
   '@types/fs-extra@11.0.4':
     dependencies:
       '@types/jsonfile': 6.1.4
-      '@types/node': 24.12.0
+      '@types/node': 24.12.2
 
   '@types/jquery@3.5.32':
     dependencies:
@@ -5540,9 +5539,9 @@ snapshots:
 
   '@types/jsonfile@6.1.4':
     dependencies:
-      '@types/node': 24.12.0
+      '@types/node': 24.12.2
 
-  '@types/node@24.12.0':
+  '@types/node@24.12.2':
     dependencies:
       undici-types: 7.16.0
 
@@ -5566,13 +5565,13 @@ snapshots:
 
   '@types/readdir-glob@1.1.5':
     dependencies:
-      '@types/node': 24.12.0
+      '@types/node': 24.12.2
 
   '@types/showdown@2.0.6': {}
 
   '@types/simple-peer@9.11.8':
     dependencies:
-      '@types/node': 24.12.0
+      '@types/node': 24.12.2
 
   '@types/sizzle@2.3.9': {}
 
@@ -5603,35 +5602,35 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@typescript-eslint/eslint-plugin@8.57.1(@typescript-eslint/parser@8.46.2(eslint@9.38.0)(typescript@5.9.3))(eslint@9.38.0)(typescript@5.9.3)':
+  '@typescript-eslint/eslint-plugin@8.58.0(@typescript-eslint/parser@8.46.2(eslint@9.38.0)(typescript@5.9.3))(eslint@9.38.0)(typescript@5.9.3)':
     dependencies:
       '@eslint-community/regexpp': 4.12.2
       '@typescript-eslint/parser': 8.46.2(eslint@9.38.0)(typescript@5.9.3)
-      '@typescript-eslint/scope-manager': 8.57.1
-      '@typescript-eslint/type-utils': 8.57.1(eslint@9.38.0)(typescript@5.9.3)
-      '@typescript-eslint/utils': 8.57.1(eslint@9.38.0)(typescript@5.9.3)
-      '@typescript-eslint/visitor-keys': 8.57.1
+      '@typescript-eslint/scope-manager': 8.58.0
+      '@typescript-eslint/type-utils': 8.58.0(eslint@9.38.0)(typescript@5.9.3)
+      '@typescript-eslint/utils': 8.58.0(eslint@9.38.0)(typescript@5.9.3)
+      '@typescript-eslint/visitor-keys': 8.58.0
       eslint: 9.38.0
       ignore: 7.0.5
       natural-compare: 1.4.0
-      ts-api-utils: 2.4.0(typescript@5.9.3)
+      ts-api-utils: 2.5.0(typescript@5.9.3)
       typescript: 5.9.3
     transitivePeerDependencies:
       - supports-color
     optional: true
 
-  '@typescript-eslint/eslint-plugin@8.57.1(@typescript-eslint/parser@8.57.1(eslint@9.39.4)(typescript@5.9.3))(eslint@9.39.4)(typescript@5.9.3)':
+  '@typescript-eslint/eslint-plugin@8.58.0(@typescript-eslint/parser@8.58.0(eslint@9.39.4)(typescript@5.9.3))(eslint@9.39.4)(typescript@5.9.3)':
     dependencies:
       '@eslint-community/regexpp': 4.12.2
-      '@typescript-eslint/parser': 8.57.1(eslint@9.39.4)(typescript@5.9.3)
-      '@typescript-eslint/scope-manager': 8.57.1
-      '@typescript-eslint/type-utils': 8.57.1(eslint@9.39.4)(typescript@5.9.3)
-      '@typescript-eslint/utils': 8.57.1(eslint@9.39.4)(typescript@5.9.3)
-      '@typescript-eslint/visitor-keys': 8.57.1
+      '@typescript-eslint/parser': 8.58.0(eslint@9.39.4)(typescript@5.9.3)
+      '@typescript-eslint/scope-manager': 8.58.0
+      '@typescript-eslint/type-utils': 8.58.0(eslint@9.39.4)(typescript@5.9.3)
+      '@typescript-eslint/utils': 8.58.0(eslint@9.39.4)(typescript@5.9.3)
+      '@typescript-eslint/visitor-keys': 8.58.0
       eslint: 9.39.4
       ignore: 7.0.5
       natural-compare: 1.4.0
-      ts-api-utils: 2.4.0(typescript@5.9.3)
+      ts-api-utils: 2.5.0(typescript@5.9.3)
       typescript: 5.9.3
     transitivePeerDependencies:
       - supports-color
@@ -5648,12 +5647,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@typescript-eslint/parser@8.57.1(eslint@9.39.4)(typescript@5.9.3)':
+  '@typescript-eslint/parser@8.58.0(eslint@9.39.4)(typescript@5.9.3)':
     dependencies:
-      '@typescript-eslint/scope-manager': 8.57.1
-      '@typescript-eslint/types': 8.57.1
-      '@typescript-eslint/typescript-estree': 8.57.1(typescript@5.9.3)
-      '@typescript-eslint/visitor-keys': 8.57.1
+      '@typescript-eslint/scope-manager': 8.58.0
+      '@typescript-eslint/types': 8.58.0
+      '@typescript-eslint/typescript-estree': 8.58.0(typescript@5.9.3)
+      '@typescript-eslint/visitor-keys': 8.58.0
       debug: 4.4.3
       eslint: 9.39.4
       typescript: 5.9.3
@@ -5663,16 +5662,16 @@ snapshots:
   '@typescript-eslint/project-service@8.46.2(typescript@5.9.3)':
     dependencies:
       '@typescript-eslint/tsconfig-utils': 8.46.2(typescript@5.9.3)
-      '@typescript-eslint/types': 8.57.0
+      '@typescript-eslint/types': 8.57.1
       debug: 4.4.3
       typescript: 5.9.3
     transitivePeerDependencies:
       - supports-color
 
-  '@typescript-eslint/project-service@8.57.1(typescript@5.9.3)':
+  '@typescript-eslint/project-service@8.58.0(typescript@5.9.3)':
     dependencies:
-      '@typescript-eslint/tsconfig-utils': 8.57.1(typescript@5.9.3)
-      '@typescript-eslint/types': 8.57.1
+      '@typescript-eslint/tsconfig-utils': 8.58.0(typescript@5.9.3)
+      '@typescript-eslint/types': 8.58.0
       debug: 4.4.3
       typescript: 5.9.3
     transitivePeerDependencies:
@@ -5683,16 +5682,16 @@ snapshots:
       '@typescript-eslint/types': 8.46.2
       '@typescript-eslint/visitor-keys': 8.46.2
 
-  '@typescript-eslint/scope-manager@8.57.1':
+  '@typescript-eslint/scope-manager@8.58.0':
     dependencies:
-      '@typescript-eslint/types': 8.57.1
-      '@typescript-eslint/visitor-keys': 8.57.1
+      '@typescript-eslint/types': 8.58.0
+      '@typescript-eslint/visitor-keys': 8.58.0
 
   '@typescript-eslint/tsconfig-utils@8.46.2(typescript@5.9.3)':
     dependencies:
       typescript: 5.9.3
 
-  '@typescript-eslint/tsconfig-utils@8.57.1(typescript@5.9.3)':
+  '@typescript-eslint/tsconfig-utils@8.58.0(typescript@5.9.3)':
     dependencies:
       typescript: 5.9.3
 
@@ -5708,36 +5707,36 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@typescript-eslint/type-utils@8.57.1(eslint@9.38.0)(typescript@5.9.3)':
+  '@typescript-eslint/type-utils@8.58.0(eslint@9.38.0)(typescript@5.9.3)':
     dependencies:
-      '@typescript-eslint/types': 8.57.1
-      '@typescript-eslint/typescript-estree': 8.57.1(typescript@5.9.3)
-      '@typescript-eslint/utils': 8.57.1(eslint@9.38.0)(typescript@5.9.3)
+      '@typescript-eslint/types': 8.58.0
+      '@typescript-eslint/typescript-estree': 8.58.0(typescript@5.9.3)
+      '@typescript-eslint/utils': 8.58.0(eslint@9.38.0)(typescript@5.9.3)
       debug: 4.4.3
       eslint: 9.38.0
-      ts-api-utils: 2.4.0(typescript@5.9.3)
+      ts-api-utils: 2.5.0(typescript@5.9.3)
       typescript: 5.9.3
     transitivePeerDependencies:
       - supports-color
     optional: true
 
-  '@typescript-eslint/type-utils@8.57.1(eslint@9.39.4)(typescript@5.9.3)':
+  '@typescript-eslint/type-utils@8.58.0(eslint@9.39.4)(typescript@5.9.3)':
     dependencies:
-      '@typescript-eslint/types': 8.57.1
-      '@typescript-eslint/typescript-estree': 8.57.1(typescript@5.9.3)
-      '@typescript-eslint/utils': 8.57.1(eslint@9.39.4)(typescript@5.9.3)
+      '@typescript-eslint/types': 8.58.0
+      '@typescript-eslint/typescript-estree': 8.58.0(typescript@5.9.3)
+      '@typescript-eslint/utils': 8.58.0(eslint@9.39.4)(typescript@5.9.3)
       debug: 4.4.3
       eslint: 9.39.4
-      ts-api-utils: 2.4.0(typescript@5.9.3)
+      ts-api-utils: 2.5.0(typescript@5.9.3)
       typescript: 5.9.3
     transitivePeerDependencies:
       - supports-color
 
   '@typescript-eslint/types@8.46.2': {}
 
-  '@typescript-eslint/types@8.57.0': {}
-
   '@typescript-eslint/types@8.57.1': {}
+
+  '@typescript-eslint/types@8.58.0': {}
 
   '@typescript-eslint/typescript-estree@8.46.2(typescript@5.9.3)':
     dependencies:
@@ -5755,17 +5754,17 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@typescript-eslint/typescript-estree@8.57.1(typescript@5.9.3)':
+  '@typescript-eslint/typescript-estree@8.58.0(typescript@5.9.3)':
     dependencies:
-      '@typescript-eslint/project-service': 8.57.1(typescript@5.9.3)
-      '@typescript-eslint/tsconfig-utils': 8.57.1(typescript@5.9.3)
-      '@typescript-eslint/types': 8.57.1
-      '@typescript-eslint/visitor-keys': 8.57.1
+      '@typescript-eslint/project-service': 8.58.0(typescript@5.9.3)
+      '@typescript-eslint/tsconfig-utils': 8.58.0(typescript@5.9.3)
+      '@typescript-eslint/types': 8.58.0
+      '@typescript-eslint/visitor-keys': 8.58.0
       debug: 4.4.3
       minimatch: 10.2.4
       semver: 7.7.3
       tinyglobby: 0.2.15
-      ts-api-utils: 2.4.0(typescript@5.9.3)
+      ts-api-utils: 2.5.0(typescript@5.9.3)
       typescript: 5.9.3
     transitivePeerDependencies:
       - supports-color
@@ -5781,24 +5780,24 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@typescript-eslint/utils@8.57.1(eslint@9.38.0)(typescript@5.9.3)':
+  '@typescript-eslint/utils@8.58.0(eslint@9.38.0)(typescript@5.9.3)':
     dependencies:
       '@eslint-community/eslint-utils': 4.9.1(eslint@9.38.0)
-      '@typescript-eslint/scope-manager': 8.57.1
-      '@typescript-eslint/types': 8.57.1
-      '@typescript-eslint/typescript-estree': 8.57.1(typescript@5.9.3)
+      '@typescript-eslint/scope-manager': 8.58.0
+      '@typescript-eslint/types': 8.58.0
+      '@typescript-eslint/typescript-estree': 8.58.0(typescript@5.9.3)
       eslint: 9.38.0
       typescript: 5.9.3
     transitivePeerDependencies:
       - supports-color
     optional: true
 
-  '@typescript-eslint/utils@8.57.1(eslint@9.39.4)(typescript@5.9.3)':
+  '@typescript-eslint/utils@8.58.0(eslint@9.39.4)(typescript@5.9.3)':
     dependencies:
       '@eslint-community/eslint-utils': 4.9.1(eslint@9.39.4)
-      '@typescript-eslint/scope-manager': 8.57.1
-      '@typescript-eslint/types': 8.57.1
-      '@typescript-eslint/typescript-estree': 8.57.1(typescript@5.9.3)
+      '@typescript-eslint/scope-manager': 8.58.0
+      '@typescript-eslint/types': 8.58.0
+      '@typescript-eslint/typescript-estree': 8.58.0(typescript@5.9.3)
       eslint: 9.39.4
       typescript: 5.9.3
     transitivePeerDependencies:
@@ -5809,58 +5808,58 @@ snapshots:
       '@typescript-eslint/types': 8.46.2
       eslint-visitor-keys: 4.2.1
 
-  '@typescript-eslint/visitor-keys@8.57.1':
+  '@typescript-eslint/visitor-keys@8.58.0':
     dependencies:
-      '@typescript-eslint/types': 8.57.1
+      '@typescript-eslint/types': 8.58.0
       eslint-visitor-keys: 5.0.1
 
-  '@vitejs/plugin-react-swc@3.7.2(vite@8.0.1(@types/node@24.12.0)(esbuild@0.27.2)(tsx@4.20.6))':
+  '@vitejs/plugin-react-swc@3.7.2(vite@8.0.3(@types/node@24.12.2)(esbuild@0.27.2)(tsx@4.20.6))':
     dependencies:
       '@swc/core': 1.9.3
-      vite: 8.0.1(@types/node@24.12.0)(esbuild@0.27.2)(tsx@4.20.6)
+      vite: 8.0.3(@types/node@24.12.2)(esbuild@0.27.2)(tsx@4.20.6)
     transitivePeerDependencies:
       - '@swc/helpers'
 
-  '@vitest/expect@4.1.0':
+  '@vitest/expect@4.1.2':
     dependencies:
       '@standard-schema/spec': 1.1.0
       '@types/chai': 5.2.2
-      '@vitest/spy': 4.1.0
-      '@vitest/utils': 4.1.0
+      '@vitest/spy': 4.1.2
+      '@vitest/utils': 4.1.2
       chai: 6.2.2
-      tinyrainbow: 3.0.3
+      tinyrainbow: 3.1.0
 
-  '@vitest/mocker@4.1.0(vite@8.0.1(@types/node@24.12.0)(esbuild@0.27.2)(tsx@4.20.6))':
+  '@vitest/mocker@4.1.2(vite@8.0.3(@types/node@24.12.2)(esbuild@0.27.2)(tsx@4.20.6))':
     dependencies:
-      '@vitest/spy': 4.1.0
+      '@vitest/spy': 4.1.2
       estree-walker: 3.0.3
       magic-string: 0.30.21
     optionalDependencies:
-      vite: 8.0.1(@types/node@24.12.0)(esbuild@0.27.2)(tsx@4.20.6)
+      vite: 8.0.3(@types/node@24.12.2)(esbuild@0.27.2)(tsx@4.20.6)
 
-  '@vitest/pretty-format@4.1.0':
+  '@vitest/pretty-format@4.1.2':
     dependencies:
-      tinyrainbow: 3.0.3
+      tinyrainbow: 3.1.0
 
-  '@vitest/runner@4.1.0':
+  '@vitest/runner@4.1.2':
     dependencies:
-      '@vitest/utils': 4.1.0
+      '@vitest/utils': 4.1.2
       pathe: 2.0.3
 
-  '@vitest/snapshot@4.1.0':
+  '@vitest/snapshot@4.1.2':
     dependencies:
-      '@vitest/pretty-format': 4.1.0
-      '@vitest/utils': 4.1.0
+      '@vitest/pretty-format': 4.1.2
+      '@vitest/utils': 4.1.2
       magic-string: 0.30.21
       pathe: 2.0.3
 
-  '@vitest/spy@4.1.0': {}
+  '@vitest/spy@4.1.2': {}
 
-  '@vitest/utils@4.1.0':
+  '@vitest/utils@4.1.2':
     dependencies:
-      '@vitest/pretty-format': 4.1.0
+      '@vitest/pretty-format': 4.1.2
       convert-source-map: 2.0.0
-      tinyrainbow: 3.0.3
+      tinyrainbow: 3.1.0
 
   abort-controller@3.0.0:
     dependencies:
@@ -6372,7 +6371,7 @@ snapshots:
   engine.io@6.6.4:
     dependencies:
       '@types/cors': 2.8.19
-      '@types/node': 24.12.0
+      '@types/node': 24.12.2
       accepts: 1.3.8
       base64id: 2.0.0
       cookie: 0.7.2
@@ -6638,10 +6637,10 @@ snapshots:
     dependencies:
       eslint: 9.39.4
 
-  eslint-config-standard@17.1.0(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.57.1(eslint@9.39.4)(typescript@5.9.3))(eslint@9.39.4))(eslint-plugin-n@17.24.0(eslint@9.39.4)(typescript@5.9.3))(eslint-plugin-promise@7.2.1(eslint@9.39.4))(eslint@9.39.4):
+  eslint-config-standard@17.1.0(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.58.0(eslint@9.39.4)(typescript@5.9.3))(eslint@9.39.4))(eslint-plugin-n@17.24.0(eslint@9.39.4)(typescript@5.9.3))(eslint-plugin-promise@7.2.1(eslint@9.39.4))(eslint@9.39.4):
     dependencies:
       eslint: 9.39.4
-      eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.57.1(eslint@9.39.4)(typescript@5.9.3))(eslint@9.39.4)
+      eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.58.0(eslint@9.39.4)(typescript@5.9.3))(eslint@9.39.4)
       eslint-plugin-n: 17.24.0(eslint@9.39.4)(typescript@5.9.3)
       eslint-plugin-promise: 7.2.1(eslint@9.39.4)
 
@@ -6653,11 +6652,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-module-utils@2.12.1(@typescript-eslint/parser@8.57.1(eslint@9.39.4)(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint@9.39.4):
+  eslint-module-utils@2.12.1(@typescript-eslint/parser@8.58.0(eslint@9.39.4)(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint@9.39.4):
     dependencies:
       debug: 3.2.7
     optionalDependencies:
-      '@typescript-eslint/parser': 8.57.1(eslint@9.39.4)(typescript@5.9.3)
+      '@typescript-eslint/parser': 8.58.0(eslint@9.39.4)(typescript@5.9.3)
       eslint: 9.39.4
       eslint-import-resolver-node: 0.3.9
     transitivePeerDependencies:
@@ -6670,7 +6669,7 @@ snapshots:
       eslint: 9.39.4
       eslint-compat-utils: 0.5.1(eslint@9.39.4)
 
-  eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.57.1(eslint@9.39.4)(typescript@5.9.3))(eslint@9.39.4):
+  eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.58.0(eslint@9.39.4)(typescript@5.9.3))(eslint@9.39.4):
     dependencies:
       '@rtsao/scc': 1.1.0
       array-includes: 3.1.9
@@ -6681,7 +6680,7 @@ snapshots:
       doctrine: 2.1.0
       eslint: 9.39.4
       eslint-import-resolver-node: 0.3.9
-      eslint-module-utils: 2.12.1(@typescript-eslint/parser@8.57.1(eslint@9.39.4)(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint@9.39.4)
+      eslint-module-utils: 2.12.1(@typescript-eslint/parser@8.58.0(eslint@9.39.4)(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint@9.39.4)
       hasown: 2.0.2
       is-core-module: 2.16.1
       is-glob: 4.0.3
@@ -6693,7 +6692,7 @@ snapshots:
       string.prototype.trimend: 1.0.9
       tsconfig-paths: 3.15.0
     optionalDependencies:
-      '@typescript-eslint/parser': 8.57.1(eslint@9.39.4)(typescript@5.9.3)
+      '@typescript-eslint/parser': 8.58.0(eslint@9.39.4)(typescript@5.9.3)
     transitivePeerDependencies:
       - eslint-import-resolver-typescript
       - eslint-import-resolver-webpack
@@ -6771,17 +6770,17 @@ snapshots:
     dependencies:
       eslint: 9.39.4
 
-  eslint-plugin-unused-imports@4.3.0(@typescript-eslint/eslint-plugin@8.57.1(@typescript-eslint/parser@8.46.2(eslint@9.38.0)(typescript@5.9.3))(eslint@9.38.0)(typescript@5.9.3))(eslint@9.38.0):
+  eslint-plugin-unused-imports@4.3.0(@typescript-eslint/eslint-plugin@8.58.0(@typescript-eslint/parser@8.46.2(eslint@9.38.0)(typescript@5.9.3))(eslint@9.38.0)(typescript@5.9.3))(eslint@9.38.0):
     dependencies:
       eslint: 9.38.0
     optionalDependencies:
-      '@typescript-eslint/eslint-plugin': 8.57.1(@typescript-eslint/parser@8.46.2(eslint@9.38.0)(typescript@5.9.3))(eslint@9.38.0)(typescript@5.9.3)
+      '@typescript-eslint/eslint-plugin': 8.58.0(@typescript-eslint/parser@8.46.2(eslint@9.38.0)(typescript@5.9.3))(eslint@9.38.0)(typescript@5.9.3)
 
-  eslint-plugin-unused-imports@4.4.1(@typescript-eslint/eslint-plugin@8.57.1(@typescript-eslint/parser@8.57.1(eslint@9.39.4)(typescript@5.9.3))(eslint@9.39.4)(typescript@5.9.3))(eslint@9.39.4):
+  eslint-plugin-unused-imports@4.4.1(@typescript-eslint/eslint-plugin@8.58.0(@typescript-eslint/parser@8.58.0(eslint@9.39.4)(typescript@5.9.3))(eslint@9.39.4)(typescript@5.9.3))(eslint@9.39.4):
     dependencies:
       eslint: 9.39.4
     optionalDependencies:
-      '@typescript-eslint/eslint-plugin': 8.57.1(@typescript-eslint/parser@8.57.1(eslint@9.39.4)(typescript@5.9.3))(eslint@9.39.4)(typescript@5.9.3)
+      '@typescript-eslint/eslint-plugin': 8.58.0(@typescript-eslint/parser@8.58.0(eslint@9.39.4)(typescript@5.9.3))(eslint@9.39.4)(typescript@5.9.3)
 
   eslint-scope@8.4.0:
     dependencies:
@@ -6926,9 +6925,9 @@ snapshots:
     dependencies:
       reusify: 1.0.4
 
-  fdir@6.5.0(picomatch@4.0.3):
+  fdir@6.5.0(picomatch@4.0.4):
     optionalDependencies:
-      picomatch: 4.0.3
+      picomatch: 4.0.4
 
   file-entry-cache@8.0.0:
     dependencies:
@@ -7100,7 +7099,7 @@ snapshots:
 
   happy-dom@20.0.8:
     dependencies:
-      '@types/node': 24.12.0
+      '@types/node': 24.12.2
       '@types/whatwg-mimetype': 3.0.2
       whatwg-mimetype: 3.0.0
 
@@ -7696,42 +7695,44 @@ snapshots:
 
   picomatch@4.0.3: {}
 
+  picomatch@4.0.4: {}
+
   pixi-basis-ktx2@0.0.22(pixi.js@https://codeload.github.com/foundry-vtt-types/pixi.js/tar.gz/a8414afd3a1141c3ef94e62079e7861723029c2c):
     dependencies:
       pixi.js: https://codeload.github.com/foundry-vtt-types/pixi.js/tar.gz/a8414afd3a1141c3ef94e62079e7861723029c2c
 
   pixi.js@https://codeload.github.com/foundry-vtt-types/pixi.js/tar.gz/a8414afd3a1141c3ef94e62079e7861723029c2c:
     dependencies:
-      '@pixi/accessibility': 7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))(@pixi/events@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)))
-      '@pixi/app': 7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))
-      '@pixi/assets': 7.4.3(@pixi/core@7.4.3)
-      '@pixi/compressed-textures': 7.4.3(@pixi/assets@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))(@pixi/core@7.4.3)
+      '@pixi/accessibility': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))(@pixi/events@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)))
+      '@pixi/app': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))
+      '@pixi/assets': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)
+      '@pixi/compressed-textures': 7.4.3(@pixi/assets@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)
       '@pixi/core': https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e
-      '@pixi/display': 7.4.3(@pixi/core@7.4.3)
-      '@pixi/events': 7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))
+      '@pixi/display': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)
+      '@pixi/events': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))
       '@pixi/extensions': 7.4.3
-      '@pixi/extract': 7.4.3(@pixi/core@7.4.3)
-      '@pixi/filter-alpha': 7.4.3(@pixi/core@7.4.3)
-      '@pixi/filter-blur': 7.4.3(@pixi/core@7.4.3)
-      '@pixi/filter-color-matrix': 7.4.3(@pixi/core@7.4.3)
-      '@pixi/filter-displacement': 7.4.3(@pixi/core@7.4.3)
-      '@pixi/filter-fxaa': 7.4.3(@pixi/core@7.4.3)
-      '@pixi/filter-noise': 7.4.3(@pixi/core@7.4.3)
-      '@pixi/graphics': 7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))(@pixi/sprite@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3)))
-      '@pixi/mesh': 7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))
-      '@pixi/mesh-extras': 7.4.3(@pixi/core@7.4.3)(@pixi/mesh@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)))
-      '@pixi/mixin-cache-as-bitmap': 7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))(@pixi/sprite@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3)))
-      '@pixi/mixin-get-child-by-name': 7.4.3(@pixi/display@7.4.3(@pixi/core@7.4.3))
-      '@pixi/mixin-get-global-position': 7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))
-      '@pixi/particle-container': 7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))(@pixi/sprite@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3)))
-      '@pixi/prepare': 7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))(@pixi/graphics@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))(@pixi/sprite@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))))(@pixi/text@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/sprite@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))))
-      '@pixi/sprite': 7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))
-      '@pixi/sprite-animated': 7.4.3(@pixi/core@7.4.3)(@pixi/sprite@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3)))
-      '@pixi/sprite-tiling': 7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))(@pixi/sprite@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3)))
-      '@pixi/spritesheet': 7.4.3(@pixi/assets@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))(@pixi/core@7.4.3)
-      '@pixi/text': 7.4.3(@pixi/core@7.4.3)(@pixi/sprite@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3)))
-      '@pixi/text-bitmap': 7.4.3(@pixi/assets@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))(@pixi/mesh@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)))(@pixi/text@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/sprite@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))))
-      '@pixi/text-html': 7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3))(@pixi/sprite@7.4.3(@pixi/core@7.4.3)(@pixi/display@7.4.3(@pixi/core@7.4.3)))(@pixi/text@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/sprite@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))))
+      '@pixi/extract': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)
+      '@pixi/filter-alpha': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)
+      '@pixi/filter-blur': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)
+      '@pixi/filter-color-matrix': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)
+      '@pixi/filter-displacement': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)
+      '@pixi/filter-fxaa': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)
+      '@pixi/filter-noise': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)
+      '@pixi/graphics': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))(@pixi/sprite@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)))
+      '@pixi/mesh': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))
+      '@pixi/mesh-extras': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/mesh@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)))
+      '@pixi/mixin-cache-as-bitmap': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))(@pixi/sprite@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)))
+      '@pixi/mixin-get-child-by-name': 7.4.3(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))
+      '@pixi/mixin-get-global-position': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))
+      '@pixi/particle-container': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))(@pixi/sprite@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)))
+      '@pixi/prepare': 7.4.3(9c3814c1efdb4259a63b90983c692c89)
+      '@pixi/sprite': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))
+      '@pixi/sprite-animated': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/sprite@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)))
+      '@pixi/sprite-tiling': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))(@pixi/sprite@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)))
+      '@pixi/spritesheet': 7.4.3(@pixi/assets@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)
+      '@pixi/text': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/sprite@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)))
+      '@pixi/text-bitmap': 7.4.3(08ca4b05cd1582363caa7758f215abe2)
+      '@pixi/text-html': 7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))(@pixi/sprite@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)))(@pixi/text@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/sprite@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e)(@pixi/display@7.4.3(@pixi/core@https://codeload.github.com/foundry-vtt-types/pixi-core/tar.gz/b2554df0b43183980830a08d92a960ede78ad25e))))
 
   possible-typed-array-names@1.0.0: {}
 
@@ -7958,35 +7959,35 @@ snapshots:
       glob: 11.0.0
       package-json-from-dist: 1.0.1
 
-  rolldown@1.0.0-rc.10:
+  rolldown@1.0.0-rc.12:
     dependencies:
-      '@oxc-project/types': 0.120.0
-      '@rolldown/pluginutils': 1.0.0-rc.10
+      '@oxc-project/types': 0.122.0
+      '@rolldown/pluginutils': 1.0.0-rc.12
     optionalDependencies:
-      '@rolldown/binding-android-arm64': 1.0.0-rc.10
-      '@rolldown/binding-darwin-arm64': 1.0.0-rc.10
-      '@rolldown/binding-darwin-x64': 1.0.0-rc.10
-      '@rolldown/binding-freebsd-x64': 1.0.0-rc.10
-      '@rolldown/binding-linux-arm-gnueabihf': 1.0.0-rc.10
-      '@rolldown/binding-linux-arm64-gnu': 1.0.0-rc.10
-      '@rolldown/binding-linux-arm64-musl': 1.0.0-rc.10
-      '@rolldown/binding-linux-ppc64-gnu': 1.0.0-rc.10
-      '@rolldown/binding-linux-s390x-gnu': 1.0.0-rc.10
-      '@rolldown/binding-linux-x64-gnu': 1.0.0-rc.10
-      '@rolldown/binding-linux-x64-musl': 1.0.0-rc.10
-      '@rolldown/binding-openharmony-arm64': 1.0.0-rc.10
-      '@rolldown/binding-wasm32-wasi': 1.0.0-rc.10
-      '@rolldown/binding-win32-arm64-msvc': 1.0.0-rc.10
-      '@rolldown/binding-win32-x64-msvc': 1.0.0-rc.10
+      '@rolldown/binding-android-arm64': 1.0.0-rc.12
+      '@rolldown/binding-darwin-arm64': 1.0.0-rc.12
+      '@rolldown/binding-darwin-x64': 1.0.0-rc.12
+      '@rolldown/binding-freebsd-x64': 1.0.0-rc.12
+      '@rolldown/binding-linux-arm-gnueabihf': 1.0.0-rc.12
+      '@rolldown/binding-linux-arm64-gnu': 1.0.0-rc.12
+      '@rolldown/binding-linux-arm64-musl': 1.0.0-rc.12
+      '@rolldown/binding-linux-ppc64-gnu': 1.0.0-rc.12
+      '@rolldown/binding-linux-s390x-gnu': 1.0.0-rc.12
+      '@rolldown/binding-linux-x64-gnu': 1.0.0-rc.12
+      '@rolldown/binding-linux-x64-musl': 1.0.0-rc.12
+      '@rolldown/binding-openharmony-arm64': 1.0.0-rc.12
+      '@rolldown/binding-wasm32-wasi': 1.0.0-rc.12
+      '@rolldown/binding-win32-arm64-msvc': 1.0.0-rc.12
+      '@rolldown/binding-win32-x64-msvc': 1.0.0-rc.12
 
-  rollup-plugin-visualizer@6.0.5(rolldown@1.0.0-rc.10)(rollup@4.46.2):
+  rollup-plugin-visualizer@6.0.5(rolldown@1.0.0-rc.12)(rollup@4.46.2):
     dependencies:
       open: 8.4.2
       picomatch: 4.0.3
       source-map: 0.7.4
       yargs: 17.7.2
     optionalDependencies:
-      rolldown: 1.0.0-rc.10
+      rolldown: 1.0.0-rc.12
       rollup: 4.46.2
 
   rollup@4.46.2:
@@ -8339,18 +8340,22 @@ snapshots:
 
   tinyglobby@0.2.15:
     dependencies:
-      fdir: 6.5.0(picomatch@4.0.3)
-      picomatch: 4.0.3
+      fdir: 6.5.0(picomatch@4.0.4)
+      picomatch: 4.0.4
 
   tinymce@6.8.5: {}
 
-  tinyrainbow@3.0.3: {}
+  tinyrainbow@3.1.0: {}
 
   to-regex-range@5.0.1:
     dependencies:
       is-number: 7.0.0
 
   ts-api-utils@2.4.0(typescript@5.9.3):
+    dependencies:
+      typescript: 5.9.3
+
+  ts-api-utils@2.5.0(typescript@5.9.3):
     dependencies:
       typescript: 5.9.3
 
@@ -8466,39 +8471,39 @@ snapshots:
 
   vary@1.1.2: {}
 
-  vite-plugin-svgr@4.5.0(rollup@4.46.2)(typescript@5.9.3)(vite@8.0.1(@types/node@24.12.0)(esbuild@0.27.2)(tsx@4.20.6)):
+  vite-plugin-svgr@4.5.0(rollup@4.46.2)(typescript@5.9.3)(vite@8.0.3(@types/node@24.12.2)(esbuild@0.27.2)(tsx@4.20.6)):
     dependencies:
       '@rollup/pluginutils': 5.2.0(rollup@4.46.2)
       '@svgr/core': 8.1.0(typescript@5.9.3)
       '@svgr/plugin-jsx': 8.1.0(@svgr/core@8.1.0(typescript@5.9.3))
-      vite: 8.0.1(@types/node@24.12.0)(esbuild@0.27.2)(tsx@4.20.6)
+      vite: 8.0.3(@types/node@24.12.2)(esbuild@0.27.2)(tsx@4.20.6)
     transitivePeerDependencies:
       - rollup
       - supports-color
       - typescript
 
-  vite@8.0.1(@types/node@24.12.0)(esbuild@0.27.2)(tsx@4.20.6):
+  vite@8.0.3(@types/node@24.12.2)(esbuild@0.27.2)(tsx@4.20.6):
     dependencies:
       lightningcss: 1.32.0
-      picomatch: 4.0.3
+      picomatch: 4.0.4
       postcss: 8.5.8
-      rolldown: 1.0.0-rc.10
+      rolldown: 1.0.0-rc.12
       tinyglobby: 0.2.15
     optionalDependencies:
-      '@types/node': 24.12.0
+      '@types/node': 24.12.2
       esbuild: 0.27.2
       fsevents: 2.3.3
       tsx: 4.20.6
 
-  vitest@4.1.0(@types/node@24.12.0)(happy-dom@20.0.8)(vite@8.0.1(@types/node@24.12.0)(esbuild@0.27.2)(tsx@4.20.6)):
+  vitest@4.1.2(@types/node@24.12.2)(happy-dom@20.0.8)(vite@8.0.3(@types/node@24.12.2)(esbuild@0.27.2)(tsx@4.20.6)):
     dependencies:
-      '@vitest/expect': 4.1.0
-      '@vitest/mocker': 4.1.0(vite@8.0.1(@types/node@24.12.0)(esbuild@0.27.2)(tsx@4.20.6))
-      '@vitest/pretty-format': 4.1.0
-      '@vitest/runner': 4.1.0
-      '@vitest/snapshot': 4.1.0
-      '@vitest/spy': 4.1.0
-      '@vitest/utils': 4.1.0
+      '@vitest/expect': 4.1.2
+      '@vitest/mocker': 4.1.2(vite@8.0.3(@types/node@24.12.2)(esbuild@0.27.2)(tsx@4.20.6))
+      '@vitest/pretty-format': 4.1.2
+      '@vitest/runner': 4.1.2
+      '@vitest/snapshot': 4.1.2
+      '@vitest/spy': 4.1.2
+      '@vitest/utils': 4.1.2
       es-module-lexer: 2.0.0
       expect-type: 1.3.0
       magic-string: 0.30.21
@@ -8509,11 +8514,11 @@ snapshots:
       tinybench: 2.9.0
       tinyexec: 1.0.2
       tinyglobby: 0.2.15
-      tinyrainbow: 3.0.3
-      vite: 8.0.1(@types/node@24.12.0)(esbuild@0.27.2)(tsx@4.20.6)
+      tinyrainbow: 3.1.0
+      vite: 8.0.3(@types/node@24.12.2)(esbuild@0.27.2)(tsx@4.20.6)
       why-is-node-running: 2.3.0
     optionalDependencies:
-      '@types/node': 24.12.0
+      '@types/node': 24.12.2
       happy-dom: 20.0.8
     transitivePeerDependencies:
       - msw
