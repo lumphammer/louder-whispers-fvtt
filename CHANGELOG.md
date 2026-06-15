@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 6.18 (2026-06-15)
+
+* Foundry VTT v14 compatible
+
 ## v5.1.0 (2025-05-12)
 
 * Foundry VTT v13 compatible.
