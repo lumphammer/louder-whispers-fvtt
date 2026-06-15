@@ -22,7 +22,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.13.1",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@lumphammer/investigator-fvtt-types": "^1.13.2",
@@ -43,22 +42,22 @@
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-simple-import-sort": "^13.0.0",
     "eslint-plugin-unused-imports": "^4.4.1",
-    "fvtt-types": "github:League-of-Foundry-Developers/foundry-vtt-types#811e0ed84950faa7e44bd610218835cf1679e3f9",
+    "fvtt-types": "catalog:",
     "prettier": "^3.8.4",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
     "svgo": "^4.0.1",
+    "tsx": "^4.21.0",
     "typescript": "^6.0.3",
     "vite": "8.0.16",
     "vite-plugin-svgr": "^5.2.0",
     "vitest": "^4.1.8"
   },
-  "pnpm": {
-    "overrides": {
-      "vite": "$vite",
-      "vitest": "$vitest",
-      "fvtt-types": "$fvtt-types",
-      "@types/node": "24.13.2"
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "11.5.3",
+      "onFail": "download"
     }
   }
 }
