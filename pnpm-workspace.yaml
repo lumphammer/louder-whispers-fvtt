@@ -11,7 +11,7 @@ catalog:
   "fvtt-types": "github:League-of-Foundry-Developers/foundry-vtt-types#47a1834c57c197d9e9c5a1c10c79a9857c9f51b5"
   "@types/node": "24.13.3"
 allowBuilds:
-  "@league-of-foundry-developers/foundry-vtt-types@https://codeload.github.com/League-of-Foundry-Developers/foundry-vtt-types/tar.gz/c9ce292722dac0d4135a513b0df090054ca270ea": true
+  "@league-of-foundry-developers/foundry-vtt-types@https://codeload.github.com/League-of-Foundry-Developers/foundry-vtt-types/tar.gz/47a1834c57c197d9e9c5a1c10c79a9857c9f51b5": true
   "@swc/core": true
   classic-level: true
   esbuild: true
