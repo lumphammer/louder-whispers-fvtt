@@ -8,10 +8,10 @@ packages:
 catalog:
   vite: "8.1.5"
   vitest: "^4.1.10"
-  "fvtt-types": "github:League-of-Foundry-Developers/foundry-vtt-types#77a574469196663030e1c4fccef597a9c1e1e473"
+  "fvtt-types": "github:League-of-Foundry-Developers/foundry-vtt-types#aece8546ca7ac0f4967f7fb1cb7d5a5490156448"
   "@types/node": "24.13.3"
 allowBuilds:
-  "git@git+https://github.com/league-of-foundry-developers/foundry-vtt-types.git": true
+  "@league-of-foundry-developers/foundry-vtt-types@git+https://github.com/League-of-Foundry-Developers/foundry-vtt-types.git": true
   "@swc/core": true
   classic-level: true
   esbuild: true
