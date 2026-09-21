@@ -32,7 +32,7 @@
     "@types/react-dom": "^19.3.0",
     "@typescript-eslint/eslint-plugin": "^8.70.0",
     "@typescript-eslint/parser": "^8.70.0",
-    "eslint": "^10.10.0",
+    "eslint": "^10.11.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin": "link:@@typescript-eslint/eslint-plugin",
@@ -43,7 +43,7 @@
     "eslint-plugin-simple-import-sort": "^14.0.0",
     "eslint-plugin-unused-imports": "^4.4.1",
     "fvtt-types": "catalog:",
-    "prettier": "^3.9.6",
+    "prettier": "^3.9.8",
     "react": "^19.3.0",
     "react-dom": "^19.3.0",
     "svgo": "^4.1.0",
@@ -51,7 +51,7 @@
     "typescript": "^7.0.2",
     "vite": "8.3.0",
     "vite-plugin-svgr": "^5.2.0",
-    "vitest": "^5.0.0"
+    "vitest": "^5.0.1"
   },
   "devEngines": {
     "packageManager": {
