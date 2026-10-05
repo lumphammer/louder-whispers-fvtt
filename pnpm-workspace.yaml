@@ -6,10 +6,10 @@ packages:
   "fvtt-types": "catalog:"
   "@types/node": "catalog:"
 catalog:
-  vite: "8.3.1"
-  vitest: "^5.0.2"
+  vite: "8.3.2"
+  vitest: "^5.0.3"
   "fvtt-types": "github:League-of-Foundry-Developers/foundry-vtt-types#05a6646f313ff1d959aea21157ab60a30241de04"
-  "@types/node": "24.19.0"
+  "@types/node": "24.19.1"
 allowBuilds:
   "@league-of-foundry-developers/foundry-vtt-types@git+https://github.com/League-of-Foundry-Developers/foundry-vtt-types.git": true
   "@swc/core": true
