@@ -49,14 +49,14 @@
     "svgo": "^4.1.0",
     "tsx": "^4.23.15",
     "typescript": "^7.0.2",
-    "vite": "8.3.5",
+    "vite": "8.3.6",
     "vite-plugin-svgr": "^5.2.0",
-    "vitest": "^5.0.5"
+    "vitest": "^5.1.0"
   },
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
-      "version": "12.16.1",
+      "version": "12.18.0",
       "onFail": "download"
     }
   }
